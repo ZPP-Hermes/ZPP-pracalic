@@ -30,14 +30,9 @@ Pion Zastępcy Kanclerza ds. Informatycznych}
 11.3 Informatyka\\ 
 }
 
-\klasyfikacja{
-Information systems\\
-Information systems applications\\
-Decision support systems\\
-Data analytics
-}
-%\TODO dodać litery/numery wierzchołków w klasyfikacji
-\keywords{słowa kluczowe}
+\klasyfikacja{}
+  
+\keywords{słowa kulczowe - nie wiem, czy tu w ogóle występują}
 
 %\newtheorem{defi}{Definicja}[section]
 
