@@ -9,8 +9,8 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{underscore}
 \usepackage{hyperref}
-\author{Tomasz Grabowski, Adam Markiewicz, Albert Rozmus, Krzysztof Rutkowski, Wiktor Zuba}
-\nralbumu{305145, 334774, 248353, 319379, 320501}
+\author{Xxx Yyy}
+\nralbumu{000000}
 \title{tytuł}
 \tytulang{English title}
 \kierunek{Informatyka}
@@ -51,8 +51,7 @@ przewidywania ilości studentów którzy zapiszą się na konkretny przedmiot.
  
 \addcontentsline{toc}{chapter}{Wprowadzenie}
  \chapter{Architektura}
-TODO - lepszy obrazek \newline
- \includegraphics[scale=0.6]{Architektura.png}\newline
+ \includegraphics[scale=1]{Architektura.png}\newline
  W architekturze i logice naszego systemu wyróżniamy następujące komponenty:
  \begin{itemize}
  
@@ -71,6 +70,8 @@ TODO - lepszy obrazek \newline
 \item \textbf{Serwer WWW} - udostępnia użytkownikom stronę internetową, w naszym systemie pośredniczy między interfejsem użytkownika a bazą danych.
   
 \end{itemize}
+
+\newpage
 
 Schemat działania i komunikacji między poszczególnymi komponentami wygląda następująco:
 \begin{enumerate}
@@ -99,7 +100,7 @@ danych na kostce i utworzenia odpowiednich modeli predykcyjnych.
 
 
  \chapter{Technologia}
-to tylko testowa wersja, pewnie ze wzgledu na duze przeciecie zdan z architektura bedzie potem do kosza ale kto wie \newline
+Wersja testowa \newline
 Technologie wykorzystywane w naszym systemie:
 \begin{itemize}
 
@@ -114,6 +115,32 @@ Technologie wykorzystywane w naszym systemie:
 \item \textbf{ASP.NET} - technologia, za pomocą której tworzymy webowy interfejs użytkownika. W celu uzyskania możliwie dużej przenośności została zaprojektowana w metodologii RWD (Responsive Web Design).  
 
 \end{itemize}
+
+\chapter{Funkcjonalności}
+
+Przy wejciu na stronę systemu użytkownik zostaje poproszony o wybranie opcji logowania : "Logowanie dla Studentów" bądź "Logowanie dla Pracowników". Poniższe podrozdziały opisują funkcjonalności zależne od wybranej opcji.
+
+\section{Funkcjonalności dla Studentów}
+
+W tym podrozdziale znajduje się opis funkcjonalności dostępnych dla użytkownika po wybraniu przy logowaniu do systemu opcji "Logowanie dla Studentów".
+
+\subsection{Predykcja ocen}
+
+Student wybiera w systemie opcję predykcji ocen. Następnie wybiera z odpowiedniego menu przedmiot z którego oczekuje predykcji. System na podstawie danych studenta pobranych za pomocą USOS API przy logowaniu dokonuje odpowiedniej predykcji i zwraca ją studentowi w widocznym polu zatytułowanym "Przewidywana ocena".
+
+\subsection{Remomendacja seminariów}
+
+Po wybraniu opcji rekomendacji seminariów student staje przed wyborem dwóch opcji : wybierz najlepsze bądź pokaż ranking. W obu wypadkach system korzysta z pobranego za pomocą USOSApi programu studiów studenta. Jeżeli student ma więcej niż 1 aktywny kierunek studiow, system prosi go o wybór programu, dla którego predykcja seminariów go interesuje. W zależności od wybranej opcji student otrzymuje jedno seminarium które wg systemu najbardziej pasuje do studenta badź też ranking seminariów od najbardziej pasującego do najmniej wg predykcji systemu.
+
+\subsection{Rekomendacja przedmiotów}
+Po wybraniu opcji rekomendacji przedmiotów student otrzymuje wybór kilku opcji. Może wybrać opcje "dobierz przedmioty do seminarium", "dobierz przedmioty do zainteresowań" bądź "znajdź najłatwiejsze". W przypadku wyboru pierwszej z nich, student jest proszony o wybór interesującego go seminarium. Na tej podstawie system zwraca listę 5 przedmiotów których student nie zdawał, które są wg systemu najbardziej powiązane z wybranym seminarium. W przypadku wyboru drugiej opcji, student otrzymuje listę 5 przedmiotów powiązanych z jego programem studiów, które najbardziej do niego pasują na podstawie zaliczanych przez niego przedmiotów i wyników z nich otrzymanych. W przypadku wyboru trzeciej opcji, system zwraca 5 przedmiotów powiązanych z programem studiów, które według predykcji student ma największą szansę zdać na dobrą ocenę.
+
+\section{Funkcjonalności dla Administracji}
+
+Poniższy podrozdział opisuje funkcjonalność dostępną po zalogowaniu przez opcję "Logowanie dla Pracowników".
+
+\subsection{Predykcja popularności przedmiotów}
+Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu może wybrać przedmiot, a następnie osobę prowadzącą i semestr akademicki. Na podstawie tych danych system zwraca przewidywaną liczbę osób zapisanych na przedmiot w polu zatytułowanym "przewidywana liczba uczestników".
 
 \begin{thebibliography}{99}
 \addcontentsline{toc}{chapter}{Bibliografia}
