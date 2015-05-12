@@ -36,20 +36,40 @@ Data analytics
 Tu będzie abstract (skrót)
 \end{abstract}
 \tableofcontents
-\chapter*{Wstęp}
 
-Celem projektu było stworzenie serwisu internetowego 
-wspierającego studentów w procesie doboru przedmiotów
-i konstruowania spójnego planu zajęć.
-Serwis miał za zadanie 
+\chapter{Wstęp}
+
+
+ \section{Opis Projektu}
+
+
+~\\ \indent Głównym celem projektu Hermes było stworzenie serwisu internetowego 
+wspierającego studentów w procesie zoptymalizowania wyboru przedmiotów.
+Serwis ma za zadanie 
 umożliwić studentom lepsze planowanie ścieżki studiów i kariery zawodowej
-poprzez proponowanie przedmiotów, które mogą pasować do upodobań konkretnego studenta.
-Propozycje zostały przydzielone na podstawie dotychczas wybieranych przedmiotów i otrzymywanych z nich ocen.
-Dodatkowym wymaganiem projektu było oferowanie usług przewidywania dla konkretnych studentów ocen z przedmiotów, których jescze nie ukończyli lub nawet nie podjęli.
-Ponadto serwis oferuje wsparcie dla uniwersytetu w postaci
-przewidywania ilości studentów którzy zapiszą się na konkretny przedmiot.
+poprzez proponowanie przedmiotów, które mogą pasować do ich upodobań i predyspozycji. 
+
+Dodatkowym spełnionym wymaganiem projektu jest oferowanie usług przewidywania dla konkretnych studentów ocen z przedmiotów, których jescze nie ukończyli lub bądź nie podjęli.
+
+Serwis oferuje również wsparcie dla uniwersytetu w postaci
+przewidywania ilości studentów którzy zapiszą się na konkretny przedmiot. \\
+\indent W celu obliczania predykcji system wykorzystywać będzie uczenie maszynowe na statystykach wszystkich studentów Uniwersytetu, a także ewentualnie wybrane przedmioty i uzyskane oceny przez studenta proszącego o propozycję. \\ \\
+\indent Projekt został zrealizowany na zlecenie działu sieci komputerowych Uniwersytetu Warszawskiego.
+\newpage
+\section{od Autorów}
+
+~\\ \indent Wybraliśmy ten projekt, ponieważ sami jesteśmy studentami i jesteśmy świadomi trudności związanych z wyborem przedmiotów. Oferta programowa Uniwersytetu Warszawskiego jest ogromna. W chwili pisania tej pracy po wyszukaniu w systemie usos zwróconych jest ponad 20000 przedmiotów! Dodatkowo opisy często są niejasne, szczątkowe, bądź brakuje syllabusu. Czasem tematyka przedmiotu obieralnego jest na tyle odmienna od dotychczasowego materiału poznanego przez studenta, że może on nie być świadomym, czy dany materiał odpowiada jego predyspozycjom i preferencjom.
+\\ \indent Pragniemy zaadresować te problemy za pomocą systemu Hermes. Pisząc go, przyświecała nam idea stworzenia drogowskazu dla studentów, którzy nie są pewni, w jakim kierunku powinni się specjalizować. Wierzymy, iż system dzięki udanym sugestiom zwiększy liczbę studentów, którzy będą naprawdę zainteresowani tematyką przedmiotu, a zmniejszy liczbę studentów zapisanych na przedmioty zupełnie niedopasowane do ich predyspozycji, co często kończy się słabą oceną bądź nawet brakiem zaliczenia. Dzięki temu skorzystają na tym studenci, którzy z większym prawdopodobieństwem zapiszą się na pasujące do ich osiągnięć i predyspozycji przedmioty, z których zdobędą możliwie wiele interesującej ich wiedzy. Zmniejszy się również dla nich ryzyko zapisania się na przedmiot, który w ogóle nie pasuje do ich zainteresowań. Zyska również Uniwersytet, którego studenci będą bardziej zadowoleni z oferty programowej, wzrośnie jakość wiedzy absolwentów oraz lepiej zostanie wykorzystany potencjał studentów. Pomoże to uczelnii być lepiej postrzeganą, bardziej pożądaną przez przyszłych studentów a także zwiększć jej prestiż.
+\\ 
+\begin{flushright}
+Tomasz Grabowski \\
+Adam Markiewicz \\
+Albert Rozmus \\
+Krzysztof Rutkowski \\
+Wiktor Zuba 
+\end{flushright}
  
-\addcontentsline{toc}{chapter}{Wprowadzenie}
+
  \chapter{Architektura}
  \includegraphics[scale=1]{Architektura.png}\newline
  W architekturze i logice naszego systemu wyróżniamy następujące komponenty:
@@ -100,19 +120,50 @@ danych na kostce i utworzenia odpowiednich modeli predykcyjnych.
 
 
  \chapter{Technologia}
-Wersja testowa \newline
-Technologie wykorzystywane w naszym systemie:
+Technologie wykorzystywane w naszym systemie: \par
+
+ \begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=10cm, height = 3cm]{Azure.jpg}
+\end{minipage} \\ \\
+\noindent 
+ \textbf{Microsoft Azure} - Azure jest komercyjną platformą obsługiwaną przez Microsoft. Udostępnia ona usługi związane z chmurą internetową (tzw cloud-computing). W naszym systemie znajduje sie na niej serwer WWW a także serwer bazy danych. \par ~\\
+\begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=10cm, height = 3cm]{sql-server-2014-logo.png}
+\end{minipage} \\ \\
+
+\noindent \textbf{Microsoft SQL Server 2014} - Komercyjny serwer bazodanowy udostępniany przez Microsoft. Znajduje się w nim relacyjna baza danych zawierająca dane niezbędne do stworzenia modelu analitycznego.  \par ~\\
+
+\begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=4cm, height = 4cm]{R.png}
+\end{minipage} \\ \\
+
+\textbf{R} - język skryptowy używany w celu analizy danych a także obliczania predykcji dla studentów bądź uniwersytetu. \par
 \begin{itemize}
 
-\item \textbf{Microsoft Azure} - Azure jest komercyjną platformą obsługiwaną przez Microsoft. Udostępnia ona usługi związane z chmurą internetową (tzw cloud-computing). W naszym systemie znajduje sie na niej serwer WWW a także serwer bazy danych. 
+\begin{figure}
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=6cm, height = 3cm]{python-logo-master-v3-TM.png}
+\end{minipage}\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=6cm, height = 3cm]{django-logo-negative.png}
+\end{minipage}
+\end{figure}
 
-\item \textbf{Microsoft SQL Server 2014} - Komercyjny serwer bazodanowy udostępniany przez Microsoft. Znajduje się w nim relacyjna baza danych zawierająca dane niezbędne do stworzenia modelu analitycznego. 
+\item \textbf{Python oraz Django} - technologie, za pomocą których tworzymy webowy interfejs użytkownika. \par ~\\
 
-\item \textbf{SQL Server Analysis Services} - usługi analityczne udostępniane przez SQL Server. W naszym systemie tworzą kostkę OLAP-ową usprawniającą analizę danych, którą potem wykonują.
+\begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=7cm, height = 2.5cm]{usosapi.jpg}
+\end{minipage} \\ \\
 
-\item \textbf {USOS Api} - API udostępniane przez system USOS. Nasz system wykorzystuje go w celu zebrania danych zalogowanego użytkownika niezbędnych do rekomendacji.
-
-\item \textbf{ASP.NET} - technologia, za pomocą której tworzymy webowy interfejs użytkownika. W celu uzyskania możliwie dużej przenośności została zaprojektowana w metodologii RWD (Responsive Web Design).  
+\item \textbf {USOS Api} - API udostępniane przez system USOS. Nasz system wykorzystuje go w celu zebrania danych zalogowanego użytkownika
+niezbędnych do rekomendacji.
 
 \end{itemize}
 
