@@ -12,8 +12,8 @@
 \usepackage{caption}
 \author{Xxx Yyy}
 \nralbumu{000000}
-\title{tytuł}
-\tytulang{English title}
+\title{Sugerowanie wyboru ścieżki kształcenia zintegrowane z USOS}
+\tytulang{Recomendation of educational path integrated with USOS}
 \kierunek{Informatyka}
 \opiekun{dra Roberta Dąbrowskiego\\
 Pion Zastępcy Kanclerza ds. Informatycznych}
@@ -205,8 +205,14 @@ Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu moż
 \end{minipage} \\ 
  
 
- \chapter{Architektura}
- \includegraphics[scale=1]{Architektura.png}\newline
+ \chapter{Architektura} 
+\section{Schemat Architektury}
+~\\
+\begin{minipage}{\linewidth} 
+	\centering
+           \includegraphics{architekturav2.jpg}
+	\text{Architektura systemu Hermes}
+\end{minipage} \\ \\ \\
  W architekturze i logice naszego systemu wyróżniamy następujące komponenty:
  \begin{itemize}
  
@@ -215,38 +221,34 @@ Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu moż
 \item \textbf {RDB} - Relacyjna baza danych zawierająca statystyczne dane dotyczące zdawalności przedmiotów przez studentów, ich zapełnienia, popularność itd. Stanowi bazę do tworzenia predykcji. Zawiera również bazę wyliczonych przez algorytmy rezultatów które wspierają modyfikacj
 
 \item \textbf{Serwer analityczny} - serwer na którym odbywa się preprocessing, przetwarzanie danych oraz obliczanie predykcji dla studenta.
+
+\item \textbf{Moduł integracyjny} - moduł który łączy się z bazą danych systemu USOS i konwertuje przekazywane z niej dane na format bazy danych systemu Hermes
  
 \item \textbf{USOS Api} - API udostępniane przez system USOS. Nasz system wykorzystuje je w celu zebrania danych zalogowanego użytkownika niezbędnych do zarekomendowania mu tego czego oczekuje.
 
 \item \textbf{Strona WWW} - interfejs za pomocą którego użytkownik może przesyłać prośby o wykonanie udostępnianych przez system rekomendacji.
 
-\item \textbf{Serwer WWW} - udostępnia użytkownikom stronę internetową, w naszym systemie pośredniczy między interfejsem użytkownika a bazą danych.
+\item \textbf{Serwer WWW} - udostępnia użytkownikom stronę internetową, w naszym systemie pośredniczy między interfejsem użytkownika a bazą danych. Pośredniczy również w komunikacji z serwerem analitycznym.
+
   
 \end{itemize}
 
-\newpage
-
+\section{Schemat współdziałania komponentów architektury}
+~\\ \indent
 Schemat działania i komunikacji między poszczególnymi komponentami wygląda następująco:
 \begin{enumerate}
 
-\item Na samym początku działania system tworzy relacyjną bazę danych zawierającą dane statystyczne z USOSa. 
+\item Na samym początku działania system tworzy relacyjną bazę danych zawierającą dane statystyczne z USOSa. Przy pobieraniu danych z USOS wykorzystywany jest moduł integracyjny w celu dostosowania danych.
 
-\item Po stworzeniu bazy danych system wykorzystuje usługi Analysis Services w celu stworzenia kostki analitycznej.
+\item Serwer analityczny dokonuje obliczeń i wstępnego przetworzenia zebranych danych aby usprawnić wyliczanie przyszłych predykcji.
 
-\item Po utworzeniu kostki system wykorzystuje usługi Analisys Services w celu przeprowadzenia analizy
-danych na kostce i utworzenia odpowiednich modeli predykcyjnych.
+\item Po wykonaniu przetworzenia danych i obliczenia statystyk aktywuje się serwer WWW i system staje się dostępny dla użytkowników.
 
-\item Po udanym stworzeniu modeli aktywuje się serwer WWW i system staje się dostępny dla użytkowników. 
+\item Użytkownik wchodzi na stronę i otrzymuje formularz logowania. W przypadku udanego logowania serwer pobiera dane użytkownika za pośrednictwem USOS Api i zwraca stronę WWW - interfejs użytkownika.
 
-\item Użytkownik wchodzi na stronę i wysyła żądanie na serwer WWW.
+\item Serwer WWW po odebraniu prośby o rekomendacje przesyła żądanie do serwera analitycznego z poleceniem obliczenia predykcji, Wykorzystuje się przy tym odebrane wcześniej dane użytkownika.
 
-\item Serwer WWW generuje stronę z formularzem zalogowania się.
-
-\item Po odebraniu danych logowania, w przypadku sukcesu, serwer pobiera dane użytkownika przez USOS Api i zwraca stronę WWW - interfejs użytkownika.
-
-\item Serwer WWW po odebraniu prośby o rekomendacje przesyła żądanie do serwera bazy danych o dokonanie predykcji wykorzystując odebrane wcześniej dane użytkownika.
-
-\item Serwer WWW odbiera rezultat zapytania i wyświetla go użytkownikowi.
+\item Serwer WWW odbiera rezultat zapytania od serwera analitycznego i wyświetla go użytkownikowi za pośrednictwem strony WWW.
 
 \end{enumerate}
 
@@ -303,26 +305,33 @@ niezbędnych do rekomendacji.
 ~\\ \indent Rozdział poświęcony będzie opisaniu algorytmów uczenia maszynowego zastosowanych w naszym systemie dla predykcji.
 
 \chapter{Podział Pracy}
-~\\ \indent Rozdział poświęcony będzie opisaniu podziału wykonanej pracy.
+~\\ \indent W projekcie Hermes podział pracy był następujący:
+
+\begin{itemize}
+\item \textbf{Tomasz Grabowski} - Redakcja licencjatu, prezentacja, pomoc przy tworzeniu danych testowych do bazy.
+\item \textbf{Adam Markiewicz} - Administrowanie serwerem umieszczonym na Azure.
+\item \textbf{Albert Rozmus} - Pomoc przy tworzeniu frontendu i serwera WWW
+\item \textbf{Krzysztof Rutkowski} - Tworzenie frontendu, zarządzanie serwerem analitycznym, pomoc przy tworzeniu modułów dla serwera analitycznego służących predykcji i rekomendacji.
+\item \textbf{Wiktor Zuba} - Tworzenie danych testowych do bazy oraz ich relacyjnego modelu. Tworzene modułów dla serwera analitycznego służących predykcj i rekomendacji.
+\end{itemize}
 
 
 \begin{thebibliography}{99}
 \addcontentsline{toc}{chapter}{Bibliografia}
-\bibitem[MDX]{MDX} 	
-\emph{Professional Microsoft SQL Server 2012 Analysis Services with MDX and DAX},
-Sivakumar Harinath, Ronald Pihlgren, Denny Guang-Yeu Lee, John Sirmon, Robert M. Bruckner,
-October 2012
-\bibitem[SSAS]{SSAS} 
-\emph{Expert Cube Development with SSAS Multidimensional Models},
-Chris Webb, Alberto Ferrari, Marco Russo,
-February 2014
-\bibitem[SQL2014]{SQL2014} 
-\emph{Professional Microsoft SQL Server 2014 Integration Services},
-Brian Knight, Devin Knight, Jessica M. Moss, Mike Davis, Chris Rock,
-June 2014
-\bibitem[technet]{technet}
-http://technet.microsoft.com/en-us/sqlserver/cc510300.aspx
-\bibitem[ASP.NET]{ASP.NET}
-http://www.asp.net/mvc
+\bibitem[AZR]{AZR}
+dokumentacja techniczna Azure :
+http://azure.microsoft.com/en-us/documentation/
+\bibitem[PTN]{ptn}
+dokumentacja techniczna języka Python : 
+https://docs.python.org/3/
+\bibitem[DGO]{DGO} 
+dokumentacja techniczna Django : 
+https://docs.djangoproject.com/en/1.8/
+\bibitem[R]{R}
+dokumentacja techniczna języka R :
+http://cran.r-project.org/manuals.html
+\bibitem[RSV]{RSV}
+dokumentacja techniczna serwera R - modułu RServe :
+http://www.rforge.net/Rserve/doc.html
 \end{thebibliography}
 \end{document}

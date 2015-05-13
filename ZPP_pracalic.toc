@@ -9,7 +9,9 @@
 \contentsline {section}{\numberline {2.2}Funkcjonalno\IeC {\'s}ci dla Administracji}{13}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Predykcja popularno\IeC {\'s}ci przedmiot\IeC {\'o}w}{13}{subsection.2.2.1}
 \contentsline {chapter}{\numberline {3}Architektura}{15}{chapter.3}
-\contentsline {chapter}{\numberline {4}Technologia}{19}{chapter.4}
-\contentsline {chapter}{\numberline {5}Zastosowane Algorytmy}{21}{chapter.5}
-\contentsline {chapter}{\numberline {6}Podzia\IeC {\l } Pracy}{23}{chapter.6}
-\contentsline {chapter}{Bibliografia}{25}{chapter*.3}
+\contentsline {section}{\numberline {3.1}Schemat Architektury}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Schemat wsp\IeC {\'o}\IeC {\l }dzia\IeC {\l }ania komponent\IeC {\'o}w architektury}{16}{section.3.2}
+\contentsline {chapter}{\numberline {4}Technologia}{17}{chapter.4}
+\contentsline {chapter}{\numberline {5}Zastosowane Algorytmy}{19}{chapter.5}
+\contentsline {chapter}{\numberline {6}Podzia\IeC {\l } Pracy}{21}{chapter.6}
+\contentsline {chapter}{Bibliografia}{23}{chapter*.3}
