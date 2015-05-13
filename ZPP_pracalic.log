@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.12)  13 MAY 2015 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.12)  13 MAY 2015 21:57
 entering extended mode
 **E:/Developer/git/ZPP-pracalic/ZPP_pracalic.tex
 (E:/Developer/git/ZPP-pracalic/ZPP_pracalic.tex
@@ -747,11 +747,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--103
 
  []
 
-<./img/przedykcjaocenstart.png, id=134, 451.6875pt x 316.18124pt>
-File: ./img/przedykcjaocenstart.png Graphic file (type png)
+<./img/predykcjaocenstart.png, id=134, 451.6875pt x 316.18124pt>
+File: ./img/predykcjaocenstart.png Graphic file (type png)
 
-<use ./img/przedykcjaocenstart.png>
-Package pdftex.def Info: ./img/przedykcjaocenstart.png used on input line 112.
+<use ./img/predykcjaocenstart.png>
+Package pdftex.def Info: ./img/predykcjaocenstart.png used on input line 112.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--115
@@ -771,12 +771,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--117
 
  []
 
-<./img/przedykcjaocenresult.png, id=140, 451.6875pt x 316.18124pt>
-File: ./img/przedykcjaocenresult.png Graphic file (type png)
+<./img/predykcjaocenresult.png, id=140, 451.6875pt x 316.18124pt>
+File: ./img/predykcjaocenresult.png Graphic file (type png)
 
-<use ./img/przedykcjaocenresult.png>
-Package pdftex.def Info: ./img/przedykcjaocenresult.png used on input line 121.
-
+<use ./img/predykcjaocenresult.png>
+Package pdftex.def Info: ./img/predykcjaocenresult.png used on input line 121.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--124
@@ -793,7 +792,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--134
 
  []
 
-[9 <./img/przedykcjaocenstart.png> <./img/przedykcjaocenresult.png>]
+[9 <./img/predykcjaocenstart.png> <./img/predykcjaocenresult.png>]
 <./img/bestsem.png, id=148, 451.6875pt x 316.18124pt>
 File: ./img/bestsem.png Graphic file (type png)
  <use ./img/bestsem.png>
@@ -1068,7 +1067,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
  8078 strings out of 493698
- 115464 string characters out of 3150054
+ 115454 string characters out of 3150054
  211214 words of memory out of 3000000
  11215 multiletter control sequences out of 15000+200000
  15696 words of font info for 47 fonts, out of 3000000 for 9000
@@ -1079,7 +1078,7 @@ amsfonts/cm/cmsy10.pfb><E:/MiKTeX 2.9/fonts/type1/public/pl/plbx10.pfb><E:/MiKT
 eX 2.9/fonts/type1/public/pl/plbx12.pfb><E:/MiKTeX 2.9/fonts/type1/public/pl/pl
 r10.pfb><E:/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><E:/MiKTeX 2.9/fonts/typ
 e1/public/pl/plr17.pfb>
-Output written on ZPP_pracalic.pdf (25 pages, 831137 bytes).
+Output written on ZPP_pracalic.pdf (25 pages, 831140 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
