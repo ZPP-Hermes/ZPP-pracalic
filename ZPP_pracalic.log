@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.12)  13 MAY 2015 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.12)  13 MAY 2015 21:50
 entering extended mode
 **E:/Developer/git/ZPP-pracalic/ZPP_pracalic.tex
 (E:/Developer/git/ZPP-pracalic/ZPP_pracalic.tex
@@ -574,22 +574,22 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count112
 Package caption Info: hyperref package is loaded.
 ) (ZPP_pracalic.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 ("E:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -606,7 +606,7 @@ LaTeX Font Info:    ... okay on input line 34.
 \everyMPtoPDFconversion=\toks32
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
  ("E:\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -615,49 +615,49 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
  (ZPP_pracalic.out)
 (ZPP_pracalic.out)
 \@outlinefile=\write3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OML+plm on input line 36.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 37.
  ("E:\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 37.
 
 
 ("E:\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 36.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 37.
 
 
 ("E:\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 36.
+(Font)              <12> on input line 37.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 36.
+(Font)              <8> on input line 37.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 36.
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+(Font)              <6> on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 
 ("E:\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 ("E:\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
@@ -665,12 +665,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \end{abstract}
+l.39 \end{abstract}
                     [1]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \end{abstract}
+l.39 \end{abstract}
                     [2
 
 ] (ZPP_pracalic.toc
@@ -685,349 +685,362 @@ LaTeX Font Info:    External font `plex10' loaded for size
 ]
 Rozdzia\PlPrIeC {\l } 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
 [6]
 Rozdzia\PlPrIeC {\l } 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-<loginlic.png, id=126, 451.6875pt x 316.18124pt>
-File: loginlic.png Graphic file (type png)
- <use loginlic.png>
-Package pdftex.def Info: loginlic.png used on input line 79.
+<./img/loginlic.png, id=126, 451.6875pt x 316.18124pt>
+File: ./img/loginlic.png Graphic file (type png)
+
+<use ./img/loginlic.png>
+Package pdftex.def Info: ./img/loginlic.png used on input line 80.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
 
  []
 
-<logowanielic.png, id=127, 451.6875pt x 316.18124pt>
-File: logowanielic.png Graphic file (type png)
- <use logowanielic.png>
-Package pdftex.def Info: logowanielic.png used on input line 91.
+<./img/logowanielic.png, id=127, 451.6875pt x 316.18124pt>
+File: ./img/logowanielic.png Graphic file (type png)
+
+<use ./img/logowanielic.png>
+Package pdftex.def Info: ./img/logowanielic.png used on input line 92.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
 [7
 
- <./loginlic.png>] <wyborstudent.png, id=132, 451.6875pt x 316.18124pt>
-File: wyborstudent.png Graphic file (type png)
+ <./img/loginlic.png>]
+<./img/wyborstudent.png, id=132, 451.6875pt x 316.18124pt>
+File: ./img/wyborstudent.png Graphic file (type png)
 
-<use wyborstudent.png>
-Package pdftex.def Info: wyborstudent.png used on input line 99.
+<use ./img/wyborstudent.png>
+Package pdftex.def Info: ./img/wyborstudent.png used on input line 100.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
 
  []
 
-<przedykcjaocenstart.png, id=134, 451.6875pt x 316.18124pt>
-File: przedykcjaocenstart.png Graphic file (type png)
+<./img/przedykcjaocenstart.png, id=134, 451.6875pt x 316.18124pt>
+File: ./img/przedykcjaocenstart.png Graphic file (type png)
 
-<use przedykcjaocenstart.png>
-Package pdftex.def Info: przedykcjaocenstart.png used on input line 111.
+<use ./img/przedykcjaocenstart.png>
+Package pdftex.def Info: ./img/przedykcjaocenstart.png used on input line 112.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--114
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--114
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./logowanielic.png> <./wyborstudent.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+ [8 <./img/logowanielic.png> <./img/wyborstudent.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 
  []
 
-<przedykcjaocenresult.png, id=140, 451.6875pt x 316.18124pt>
-File: przedykcjaocenresult.png Graphic file (type png)
+<./img/przedykcjaocenresult.png, id=140, 451.6875pt x 316.18124pt>
+File: ./img/przedykcjaocenresult.png Graphic file (type png)
 
-<use przedykcjaocenresult.png>
-Package pdftex.def Info: przedykcjaocenresult.png used on input line 120.
+<use ./img/przedykcjaocenresult.png>
+Package pdftex.def Info: ./img/przedykcjaocenresult.png used on input line 121.
+
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--123
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
 
  []
 
-<reksem.png, id=141, 451.6875pt x 316.18124pt>
-File: reksem.png Graphic file (type png)
- <use reksem.png>
-Package pdftex.def Info: reksem.png used on input line 130.
+<./img/reksem.png, id=141, 451.6875pt x 316.18124pt>
+File: ./img/reksem.png Graphic file (type png)
+ <use ./img/reksem.png>
+Package pdftex.def Info: ./img/reksem.png used on input line 131.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--133
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
 
  []
 
-[9 <./przedykcjaocenstart.png> <./przedykcjaocenresult.png>]
-<bestsem.png, id=148, 451.6875pt x 316.18124pt>
-File: bestsem.png Graphic file (type png)
- <use bestsem.png>
-Package pdftex.def Info: bestsem.png used on input line 138.
+[9 <./img/przedykcjaocenstart.png> <./img/przedykcjaocenresult.png>]
+<./img/bestsem.png, id=148, 451.6875pt x 316.18124pt>
+File: ./img/bestsem.png Graphic file (type png)
+ <use ./img/bestsem.png>
+Package pdftex.def Info: ./img/bestsem.png used on input line 139.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-<ranksem.png, id=149, 451.6875pt x 316.18124pt>
-File: ranksem.png Graphic file (type png)
- <use ranksem.png>
-Package pdftex.def Info: ranksem.png used on input line 144.
+<./img/ranksem.png, id=149, 451.6875pt x 316.18124pt>
+File: ./img/ranksem.png Graphic file (type png)
+ <use ./img/ranksem.png>
+Package pdftex.def Info: ./img/ranksem.png used on input line 145.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--147
+Underfull \hbox (badness 10000) in paragraph at lines 136--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--147
+Underfull \hbox (badness 10000) in paragraph at lines 136--148
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./reksem.png> <./bestsem.png>] <bestprzed.png, id=156, 451.6875pt x 316.1
-8124pt>
-File: bestprzed.png Graphic file (type png)
+ [10 <./img/reksem.png> <./img/bestsem.png>]
+<./img/bestprzed.png, id=156, 451.6875pt x 316.18124pt>
+File: ./img/bestprzed.png Graphic file (type png)
 
-<use bestprzed.png>
-Package pdftex.def Info: bestprzed.png used on input line 154.
+<use ./img/bestprzed.png>
+Package pdftex.def Info: ./img/bestprzed.png used on input line 155.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
-<bestprzedsem.png, id=157, 451.6875pt x 316.18124pt>
-File: bestprzedsem.png Graphic file (type png)
- <use bestprzedsem.png>
-Package pdftex.def Info: bestprzedsem.png used on input line 161.
+<./img/bestprzedsem.png, id=157, 451.6875pt x 316.18124pt>
+File: ./img/bestprzedsem.png Graphic file (type png)
+
+<use ./img/bestprzedsem.png>
+Package pdftex.def Info: ./img/bestprzedsem.png used on input line 162.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--164
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 
  []
 
-[11 <./ranksem.png> <./bestprzed.png>]
-<bestprzedzainteresowania.png, id=165, 451.6875pt x 316.18124pt>
-File: bestprzedzainteresowania.png Graphic file (type png)
+[11 <./img/ranksem.png> <./img/bestprzed.png>]
+<./img/bestprzedzainteresowania.png, id=165, 451.6875pt x 316.18124pt>
+File: ./img/bestprzedzainteresowania.png Graphic file (type png)
 
-<use bestprzedzainteresowania.png>
-Package pdftex.def Info: bestprzedzainteresowania.png used on input line 170.
+<use ./img/bestprzedzainteresowania.png>
+Package pdftex.def Info: ./img/bestprzedzainteresowania.png used on input line 
+171.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--173
+Underfull \hbox (badness 10000) in paragraph at lines 168--174
 
  []
 
-<bestprzedeasy.png, id=166, 451.6875pt x 316.18124pt>
-File: bestprzedeasy.png Graphic file (type png)
- <use bestprzedeasy.png>
-Package pdftex.def Info: bestprzedeasy.png used on input line 178.
+<./img/bestprzedeasy.png, id=166, 451.6875pt x 316.18124pt>
+File: ./img/bestprzedeasy.png Graphic file (type png)
+
+<use ./img/bestprzedeasy.png>
+Package pdftex.def Info: ./img/bestprzedeasy.png used on input line 179.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--181
+Underfull \hbox (badness 10000) in paragraph at lines 176--182
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./bestprzedsem.png> <./bestprzedzainteresowania.png>]
-<logowanieprac.png, id=173, 451.6875pt x 316.18124pt>
-File: logowanieprac.png Graphic file (type png)
- <use logowanieprac.png>
-Package pdftex.def Info: logowanieprac.png used on input line 187.
+ [12 <./img/bestprzedsem.png> <./img/bestprzedzainteresowania.png>]
+<./img/logowanieprac.png, id=173, 451.6875pt x 316.18124pt>
+File: ./img/logowanieprac.png Graphic file (type png)
+
+<use ./img/logowanieprac.png>
+Package pdftex.def Info: ./img/logowanieprac.png used on input line 188.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--190
+Underfull \hbox (badness 10000) in paragraph at lines 185--191
 
  []
 
-File: logowanieprac.png Graphic file (type png)
-<use logowanieprac.png>
-Package pdftex.def Info: logowanieprac.png used on input line 196.
+File: ./img/logowanieprac.png Graphic file (type png)
+<use ./img/logowanieprac.png>
+Package pdftex.def Info: ./img/logowanieprac.png used on input line 197.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--199
+Underfull \hbox (badness 10000) in paragraph at lines 194--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--199
+Underfull \hbox (badness 10000) in paragraph at lines 194--200
 
  []
 
-[13 <./bestprzedeasy.png> <./logowanieprac.png>]
-File: logowanieprac.png Graphic file (type png)
- <use logowanieprac.png>
-Package pdftex.def Info: logowanieprac.png used on input line 203.
+[13 <./img/bestprzedeasy.png> <./img/logowanieprac.png>]
+File: ./img/logowanieprac.png Graphic file (type png)
+
+<use ./img/logowanieprac.png>
+Package pdftex.def Info: ./img/logowanieprac.png used on input line 204.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
+Underfull \hbox (badness 10000) in paragraph at lines 201--207
 
  []
 
 [14]
 Rozdzia\PlPrIeC {\l } 3.
-<architekturav2.jpg, id=184, 460.72125pt x 310.91156pt>
-File: architekturav2.jpg Graphic file (type jpg)
+<./img/architekturav2.jpg, id=184, 460.72125pt x 310.91156pt>
+File: ./img/architekturav2.jpg Graphic file (type jpg)
 
-<use architekturav2.jpg>
-Package pdftex.def Info: architekturav2.jpg used on input line 213.
+<use ./img/architekturav2.jpg>
+Package pdftex.def Info: ./img/architekturav2.jpg used on input line 214.
 (pdftex.def)             Requested size: 460.72012pt x 310.91078pt.
 
-Overfull \hbox (19.7024pt too wide) in paragraph at lines 213--215
+Overfull \hbox (19.7024pt too wide) in paragraph at lines 214--216
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--217
+Underfull \hbox (badness 10000) in paragraph at lines 211--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--217
+Underfull \hbox (badness 10000) in paragraph at lines 211--218
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 219.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 220.
 
 ("E:\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 219.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
  [15
 
- <./architekturav2.jpg>] [16]
+ <./img/architekturav2.jpg>]
+[16]
 Rozdzia\PlPrIeC {\l } 4.
-<Azure.jpg, id=200, 424.58624pt x 119.44624pt>
-File: Azure.jpg Graphic file (type jpg)
- <use Azure.jpg>
-Package pdftex.def Info: Azure.jpg used on input line 261.
+<./img/Azure.jpg, id=200, 424.58624pt x 119.44624pt>
+File: ./img/Azure.jpg Graphic file (type jpg)
+ <use ./img/Azure.jpg>
+Package pdftex.def Info: ./img/Azure.jpg used on input line 262.
 (pdftex.def)             Requested size: 284.54257pt x 85.35783pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 259--264
+Overfull \hbox (17.0pt too wide) in paragraph at lines 260--265
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--264
+Underfull \hbox (badness 10000) in paragraph at lines 260--265
 
  []
 
-<sql-server-2014-logo.png, id=201, 149.8398pt x 47.6982pt>
-File: sql-server-2014-logo.png Graphic file (type png)
+<./img/sql-server-2014-logo.png, id=201, 149.8398pt x 47.6982pt>
+File: ./img/sql-server-2014-logo.png Graphic file (type png)
 
-<use sql-server-2014-logo.png>
-Package pdftex.def Info: sql-server-2014-logo.png used on input line 267.
+<use ./img/sql-server-2014-logo.png>
+Package pdftex.def Info: ./img/sql-server-2014-logo.png used on input line 268.
+
 (pdftex.def)             Requested size: 284.57736pt x 85.36246pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-<R.png, id=202, 349.305pt x 264.99pt>
-File: R.png Graphic file (type png)
- <use R.png>
-Package pdftex.def Info: R.png used on input line 274.
+<./img/R.png, id=202, 349.305pt x 264.99pt>
+File: ./img/R.png Graphic file (type png)
+ <use ./img/R.png>
+Package pdftex.def Info: ./img/R.png used on input line 275.
 (pdftex.def)             Requested size: 113.8106pt x 113.81004pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 272--276
+Overfull \hbox (17.0pt too wide) in paragraph at lines 273--277
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 273--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 273--277
 
  []
 
-<python-logo-master-v3-TM.png, id=203, 611.75027pt x 206.63113pt>
-File: python-logo-master-v3-TM.png Graphic file (type png)
+<./img/python-logo-master-v3-TM.png, id=203, 611.75027pt x 206.63113pt>
+File: ./img/python-logo-master-v3-TM.png Graphic file (type png)
 
-<use python-logo-master-v3-TM.png>
-Package pdftex.def Info: python-logo-master-v3-TM.png used on input line 284.
+<use ./img/python-logo-master-v3-TM.png>
+Package pdftex.def Info: ./img/python-logo-master-v3-TM.png used on input line 
+285.
 (pdftex.def)             Requested size: 170.7195pt x 85.35934pt.
 
-<django-logo-negative.png, id=204, 1204.5pt x 548.0475pt>
-File: django-logo-negative.png Graphic file (type png)
+<./img/django-logo-negative.png, id=204, 1204.5pt x 548.0475pt>
+File: ./img/django-logo-negative.png Graphic file (type png)
 
-<use django-logo-negative.png>
-Package pdftex.def Info: django-logo-negative.png used on input line 288.
+<use ./img/django-logo-negative.png>
+Package pdftex.def Info: ./img/django-logo-negative.png used on input line 289.
+
 (pdftex.def)             Requested size: 170.70569pt x 85.35625pt.
  [17
 
- <./Azure.jpg> <./sql-server-2014-logo.png> <./R.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+ <./img/Azure.jpg> <./img/sql-server-2014-logo.png> <./img/R.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-<usosapi.jpg, id=212, 218.31563pt x 73.02281pt>
-File: usosapi.jpg Graphic file (type jpg)
- <use usosapi.jpg>
-Package pdftex.def Info: usosapi.jpg used on input line 296.
+<./img/usosapi.jpg, id=212, 218.31563pt x 73.02281pt>
+File: ./img/usosapi.jpg Graphic file (type jpg)
+ <use ./img/usosapi.jpg>
+Package pdftex.def Info: ./img/usosapi.jpg used on input line 297.
 (pdftex.def)             Requested size: 199.17053pt x 71.13843pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
 
  []
 
-[18 <./python-logo-master-v3-TM.png> <./django-logo-negative.png> <./usosapi.jp
-g>]
+[18 <./img/python-logo-master-v3-TM.png> <./img/django-logo-negative.png> <./im
+g/usosapi.jpg>]
 Rozdzia\PlPrIeC {\l } 5.
 [19
 
@@ -1038,24 +1051,24 @@ Rozdzia\PlPrIeC {\l } 6.
 [21] [22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 334--336
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
 []\OT4/cmr/m/n/10.95 dokumentacja tech-nicz-na ser-we-ra R - mo-du-ªu RSe-rve :
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
 [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (ZPP_pracalic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `ZPP_pracalic.out' has not changed.
 (rerunfilecheck)             Checksum: E3BA952311EE073B9AD09035858F2B4E;1125.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 8077 strings out of 493698
- 114978 string characters out of 3150054
+ 8078 strings out of 493698
+ 115464 string characters out of 3150054
  211214 words of memory out of 3000000
  11215 multiletter control sequences out of 15000+200000
  15696 words of font info for 47 fonts, out of 3000000 for 9000
@@ -1066,7 +1079,7 @@ amsfonts/cm/cmsy10.pfb><E:/MiKTeX 2.9/fonts/type1/public/pl/plbx10.pfb><E:/MiKT
 eX 2.9/fonts/type1/public/pl/plbx12.pfb><E:/MiKTeX 2.9/fonts/type1/public/pl/pl
 r10.pfb><E:/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><E:/MiKTeX 2.9/fonts/typ
 e1/public/pl/plr17.pfb>
-Output written on ZPP_pracalic.pdf (25 pages, 831135 bytes).
+Output written on ZPP_pracalic.pdf (25 pages, 831137 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
