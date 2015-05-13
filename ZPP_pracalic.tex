@@ -9,6 +9,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{underscore}
 \usepackage{hyperref}
+\usepackage{caption}
 \author{Xxx Yyy}
 \nralbumu{000000}
 \title{tytuł}
@@ -68,6 +69,140 @@ Albert Rozmus \\
 Krzysztof Rutkowski \\
 Wiktor Zuba 
 \end{flushright}
+
+\chapter{Funkcjonalności}
+~\\ \indent
+Przy wejciu na stronę systemu użytkownik zostaje poproszony o wybranie opcji logowania: "Logowanie dla Studentów" bądź "Logowanie dla Pracowników". \\ \par
+~\\
+\begin{minipage}{\linewidth}
+	 \centering
+           \includegraphics[scale=0.7]{loginlic.png}
+	\text{Ekran wyboru opcji logowania}
+\end{minipage} \\ \\ \\
+
+ Poniższe podrozdziały opisują funkcjonalności zależne od wybranej opcji.
+
+\section{Funkcjonalności dla Studentów}
+~\\ \indent
+W tym podrozdziale znajduje się opis funkcjonalności dostępnych dla użytkownika po wybraniu przy logowaniu do systemu opcji "Logowanie dla Studentów". Najpierw student proszony jest o logowanie. \par
+~\\
+\begin{minipage}{\linewidth}
+	 \centering
+           \includegraphics[scale=0.7]{logowanielic.png}
+	\text{Ekran logowania dla studentów}
+\end{minipage} \\
+
+W przypadku udanej autoryzacji pojawia się interfejs użytkownika który umożliwia wybór między trzeba opcjami : predykcją ocen, rekomendacją seminariów oraz rekomendacją przedmiotów. \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{wyborstudent.png}
+	\text{Interfejs użytkownika-studenta z wyborem typu predykcji}
+\end{minipage} \\ 
+
+
+
+\subsection{Predykcja ocen}
+~\\ \indent
+Po wybraniu opcji predykcji ocen student otrzymuje nowy interfejs.  \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{przedykcjaocenstart.png}
+	\text{Interfejs dla trybu predykcji oceny z przedmiotu}
+\end{minipage} \\ \\
+
+
+Wybiera w nim z odpowiedniego menu przedmiot z którego oczekuje predykcji i prosi o zwrócenie wyniku. System na podstawie danych studenta pobranych za pomocą USOS API przy logowaniu dokonuje odpowiednich obliczeńi i zwraca predykcję studentowi w widocznym polu zatytułowanym "Przewidywana ocena". \\ \par 
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{przedykcjaocenresult.png}
+	\text{Przykładowy rezultat zapytania o predykcję oceny}
+\end{minipage} \\ 
+
+\subsection{Remomendacja seminariów}
+~\\ \indent
+Po wybraniu opcji rekomendacji seminariów student staje przed wyborem dwóch opcji : wybierz najlepsze bądź pokaż ranking. \par 
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{reksem.png}
+	\text{Interfejs rekomendacji seminariów}
+\end{minipage} \\ 
+
+W obu wypadkach system korzysta z pobranego za pomocą USOSApi programu studiów studenta. Jeżeli student ma więcej niż 1 aktywny kierunek studiow, system prosi go o wybór programu, dla którego predykcja seminariów go interesuje. W zależności od wybranej opcji student otrzymuje jedno seminarium które wg systemu najbardziej pasuje do studenta badź też ranking seminariów od najbardziej pasującego do najmniej wg predykcji systemu. \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{bestsem.png}
+	\text{Przykładowy rezultat prośby zarkeomendowanie najlepszego seminarium}
+\end{minipage} \\  
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{ranksem.png}
+	\text{Przykładowy rezultat prośby o obliczenie rankingu seminariów}
+\end{minipage} \\ 
+
+
+\subsection{Rekomendacja przedmiotów} ~\\ \indent
+Po wybraniu opcji rekomendacji przedmiotów student otrzymuje wybór kilku opcji. Może wybrać opcje "dobierz przedmioty do seminarium", "dobierz przedmioty do zainteresowań" bądź "znajdź najłatwiejsze". \par
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{bestprzed.png}
+	\text{Interfejs użytkownika dla opcji rekomendacji przedmiotów}
+\end{minipage} \\  \\ \\
+\indent W przypadku wyboru pierwszej z nich, student jest proszony o wybór interesującego go seminarium. Na tej podstawie system zwraca listę 5 przedmiotów których student nie zdawał, które są wg systemu najbardziej powiązane z wybranym seminarium. \par
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{bestprzedsem.png}
+	\text{Przykładowy rezultat dla rekomendacji przedmiotów do seminarium}
+\end{minipage} \\ 
+
+
+W przypadku wyboru drugiej opcji, student otrzymuje listę 5 przedmiotów powiązanych z jego programem studiów, które najbardziej do niego pasują na podstawie zaliczanych przez niego przedmiotów i wyników z nich otrzymanych. \par
+ ~\\
+\begin{minipage}{\linewidth} 
+	\centering
+           \includegraphics[scale=0.7]{bestprzedzainteresowania.png}
+	\text{Przykładowy rezultat dla rekomendacji przedmiotów wg zainteresowań studenta}
+\end{minipage} \\ 
+
+ W przypadku wyboru trzeciej opcji, system zwraca 5 przedmiotów powiązanych z programem studiów, które według predykcji student ma największą szansę zdać na dobrą ocenę. \par
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{bestprzedeasy.png}
+	\text{Przykładowy rezultat dla rekomendacji przedmiotów wg zainteresowań studenta}
+\end{minipage} \\ 
+\section{Funkcjonalności dla Administracji}
+~\\ \indent
+Poniższy podrozdział opisuje funkcjonalność dostępną po zalogowaniu przez opcję "Logowanie dla Pracowników", dostępnej po udanej autoryzacji przed odpowiedni formularz. \par
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{logowanieprac.png}
+	\text{Formularz logowania dla pracowników}
+\end{minipage} \\ 
+
+\subsection{Predykcja popularności przedmiotów} ~\\ \indent
+Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu może wybrać przedmiot, a następnie osobę prowadzącą i semestr akademicki. \par
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{logowanieprac.png}
+	\text{Interfejs dla predykcji popularności przedmiotów}
+\end{minipage} \\ \\ \\
+\indent Na podstawie tych danych system zwraca przewidywaną liczbę osób zapisanych na przedmiot w polu zatytułowanym "przewidywana liczba uczestników". \par
+ ~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.7]{logowanieprac.png}
+	\text{Przykładowy rezultat dla predykcji popularności przedmiotów}
+\end{minipage} \\ 
  
 
  \chapter{Architektura}
@@ -77,11 +212,9 @@ Wiktor Zuba
  
 \item \textbf{Chmura} - Sercem systemu jest główny serwer wraz z innymi usługami znajdujący się w chmurze internetowej. Znajduje się na niej serwer bazy danych, serwer WWW oraz serwer usług analitycznych.
 
-\item \textbf {RDB} - Relacyjna baza danych zawierająca statystyczne dane dotyczące zdawalności przedmiotów przez studentów, ich zapełnienia, popularność itd. Stanowi bazę do tworzenia kostek analitycznych. 
+\item \textbf {RDB} - Relacyjna baza danych zawierająca statystyczne dane dotyczące zdawalności przedmiotów przez studentów, ich zapełnienia, popularność itd. Stanowi bazę do tworzenia predykcji. Zawiera również bazę wyliczonych przez algorytmy rezultatów które wspierają modyfikacj
 
-\item \textbf {Kostka OLAP} - struktura danych, która pozwala na szybką analizę danych. Przechowuje ona dane w sposób bardziej przypominający wielowymiarowe arkusze kalkulacyjne niż tradycyjną, relacyjną bazę danych. Rozmieszczenie danych w kostkach pokonuje ograniczenia relacyjnych baz danych.
-
-\item \textbf{Analysis Service} - usługi analityczne dokonujące analizy danych za pomocą algorytmów uczenia maszynowego oraz data mining.
+\item \textbf{Serwer analityczny} - serwer na którym odbywa się preprocessing, przetwarzanie danych oraz obliczanie predykcji dla studenta.
  
 \item \textbf{USOS Api} - API udostępniane przez system USOS. Nasz system wykorzystuje je w celu zebrania danych zalogowanego użytkownika niezbędnych do zarekomendowania mu tego czego oczekuje.
 
@@ -116,7 +249,6 @@ danych na kostce i utworzenia odpowiednich modeli predykcyjnych.
 \item Serwer WWW odbiera rezultat zapytania i wyświetla go użytkownikowi.
 
 \end{enumerate}
-
 
 
  \chapter{Technologia}
@@ -167,31 +299,12 @@ niezbędnych do rekomendacji.
 
 \end{itemize}
 
-\chapter{Funkcjonalności}
+\chapter{Zastosowane Algorytmy}
+~\\ \indent Rozdział poświęcony będzie opisaniu algorytmów uczenia maszynowego zastosowanych w naszym systemie dla predykcji.
 
-Przy wejciu na stronę systemu użytkownik zostaje poproszony o wybranie opcji logowania : "Logowanie dla Studentów" bądź "Logowanie dla Pracowników". Poniższe podrozdziały opisują funkcjonalności zależne od wybranej opcji.
+\chapter{Podział Pracy}
+~\\ \indent Rozdział poświęcony będzie opisaniu podziału wykonanej pracy.
 
-\section{Funkcjonalności dla Studentów}
-
-W tym podrozdziale znajduje się opis funkcjonalności dostępnych dla użytkownika po wybraniu przy logowaniu do systemu opcji "Logowanie dla Studentów".
-
-\subsection{Predykcja ocen}
-
-Student wybiera w systemie opcję predykcji ocen. Następnie wybiera z odpowiedniego menu przedmiot z którego oczekuje predykcji. System na podstawie danych studenta pobranych za pomocą USOS API przy logowaniu dokonuje odpowiedniej predykcji i zwraca ją studentowi w widocznym polu zatytułowanym "Przewidywana ocena".
-
-\subsection{Remomendacja seminariów}
-
-Po wybraniu opcji rekomendacji seminariów student staje przed wyborem dwóch opcji : wybierz najlepsze bądź pokaż ranking. W obu wypadkach system korzysta z pobranego za pomocą USOSApi programu studiów studenta. Jeżeli student ma więcej niż 1 aktywny kierunek studiow, system prosi go o wybór programu, dla którego predykcja seminariów go interesuje. W zależności od wybranej opcji student otrzymuje jedno seminarium które wg systemu najbardziej pasuje do studenta badź też ranking seminariów od najbardziej pasującego do najmniej wg predykcji systemu.
-
-\subsection{Rekomendacja przedmiotów}
-Po wybraniu opcji rekomendacji przedmiotów student otrzymuje wybór kilku opcji. Może wybrać opcje "dobierz przedmioty do seminarium", "dobierz przedmioty do zainteresowań" bądź "znajdź najłatwiejsze". W przypadku wyboru pierwszej z nich, student jest proszony o wybór interesującego go seminarium. Na tej podstawie system zwraca listę 5 przedmiotów których student nie zdawał, które są wg systemu najbardziej powiązane z wybranym seminarium. W przypadku wyboru drugiej opcji, student otrzymuje listę 5 przedmiotów powiązanych z jego programem studiów, które najbardziej do niego pasują na podstawie zaliczanych przez niego przedmiotów i wyników z nich otrzymanych. W przypadku wyboru trzeciej opcji, system zwraca 5 przedmiotów powiązanych z programem studiów, które według predykcji student ma największą szansę zdać na dobrą ocenę.
-
-\section{Funkcjonalności dla Administracji}
-
-Poniższy podrozdział opisuje funkcjonalność dostępną po zalogowaniu przez opcję "Logowanie dla Pracowników".
-
-\subsection{Predykcja popularności przedmiotów}
-Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu może wybrać przedmiot, a następnie osobę prowadzącą i semestr akademicki. Na podstawie tych danych system zwraca przewidywaną liczbę osób zapisanych na przedmiot w polu zatytułowanym "przewidywana liczba uczestników".
 
 \begin{thebibliography}{99}
 \addcontentsline{toc}{chapter}{Bibliografia}
