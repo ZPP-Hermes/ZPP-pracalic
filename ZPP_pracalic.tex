@@ -34,11 +34,10 @@ Data analytics
 \graphicspath{ {./img/} }
 \begin{document}
 \maketitle
-\begin{abstract}
-Tu będzie abstract (skrót)
+\begin{abstract} ~\\ \indent
+Praca poświęcona jest systemowi Hermes, który ma na celu rekomendację przedmiotów dla studentów. Znajduje się w niej opis funkcjonalności, architektury, implementacji, zastosowanych algorytmów oraz organizacji pracy nad projektem.
 \end{abstract}
 \tableofcontents
-
 \chapter{Wstęp}
 
 
@@ -305,7 +304,30 @@ niezbędnych do rekomendacji.
 \chapter{Zastosowane Algorytmy}
 ~\\ \indent Rozdział poświęcony będzie opisaniu algorytmów uczenia maszynowego zastosowanych w naszym systemie dla predykcji.
 
-\chapter{Podział Pracy}
+\chapter{Organizacja pracy oraz podział obowiązków} ~\\
+
+\section{Praca nad systemem} ~\\
+
+Za namową zamawiającego na początku zdecydowaliśmy się zrealizować projekt za pomocą technologii koncernu Microsoft. Otrzymaliśmy od niego licencję Bizspark która dała nam licencję na swobodne wykorzystywanie produktów Microsoftu przez 2 lata. Dodatkowo Bizspark umożliwiał korzystanie z usługi Azure w zakresie abonamentu w wysokości 150 euro na miesiąc. Dlategoywybraliśmy chmurę Azure jako nasz serwer. Planowaliśmy dodatkowo zrealizować obliczanie predykcji za pomocą Sql Server Analysis Services a frontend za pomocą .NET. \\
+
+Z projektem jednak wiązały się dość znaczące problemy. Pierwszym z nich była zmiana technologii użytej w celu obliczania predykcji, na którą zdecydowaliśmy się w lutym. Przed rozpoczęciem pracy nad projektem nikt z nas nie znał możliwości Sql Server Analysis Services (SSAS) ani nie tworzył strony internetowej w .NET. O ile z .NET nie było znaczących problemów, usługi analityczne sql servera stanowiły dla nas barierę nie do przejścia. Ze względu na dośc kiepsko udomkumentowną technologię SSAS, brak szkoleń z tej technologii oraz brak zajęć na uniwersytecie jej poświęconym podjęliśmy decyzję o rezygnacji z tego narzędzia. Zdecydowaliśmy się na wykorzystanie języka skryptowego R, z którym dobrze zaznajomione były 2 osoby w zespole. Zmieniliśmy także realizację frontendu z .NET na Django ponieważ główny powód wyboru .NET, pluginy dedykowane dla SSAS przestał być ważny. Z Django obeznane były wszystkie osoby w zespole, a dodatkowym atutem był jeden członek zaspołu posiadającoświadczenie zawodowe w pisaniu aplikacji w Pythonie. \\
+
+Kolejnym znaczącym problemem była mocno utrudniona praca związana z analizą danych i dobieraniem optymalnych algorytmów. Zamawiający obiecał nam dostarczenie zaszumionych danych z systemu USOS. Czekaliśmy na nie, ponieważ trudno było samemu wymyślić i wygenerować nietrywialne korelacje, zbliżone do rzeczywistości. Próbka takich danych mocno pomogłaby nam z doborem algorytmów predykcyjnych. Jednak zaszumienie okazało się w praktyce niemożliwe a "zwykłych" danych nie mogliśmy otrzymać z powodu ustawy o ochronie danych osobowych. O tych ograniczeniach praktycznie dowiedzieliśmy się dopiero w kwietniu, co mocno nam popsuło pracę nad algorytmami predykcyjnymi i analizą ich jakości która niestety nie została wykonana na danych produkcyjnych.
+
+\section{Organizacja Pracy} ~\\
+
+
+Naszym repozytorium był git. Drzewo projektu w repozytorium prezentuje się następująco:
+
+TODO : tu będzie drzewko naszego repo.
+
+Przydział zadań do osób i planowanie pracy zostały zrealizowane za pomocą portalu Redmine. \\
+
+Praca na początku projektu przebiegała dość chaotycznie, z długimi przerwami. Dużą blokadą były dla nas problem z efektywną pracą nad predykcjami z SSAS oraz brak danych bliższych rzeczywistości utrudniający nam wyjście poza teoretyczne rozważanie o algorytmach. Realną pracę wychodzącą poza studiowanie dokumentacji i metodę prób i błędów prowadząca do nikąd zaczęliśmy dopiero po decyzji o zmianie technologii w lutym. Praca odbywała się wtedy w cotygodniowych iteracjach, a znacząco przyśpieszyła w kwietniu po ostatecznej decyzji o braku możliwości otrzymania jakichkolwiek danych przypominających rzeczywiste. Niestety ze względu na niezbyt długi pozostały wówczas czas nie udało nam się zrealizować wszystkich planów.
+
+\section{Podział Obowiązków} ~\\
+
+TODO (przy działającym serwisie rzetelnie opiszę wkład osób)
 ~\\ \indent W projekcie Hermes podział pracy był następujący:
 
 \begin{itemize}
@@ -316,23 +338,26 @@ niezbędnych do rekomendacji.
 \item \textbf{Wiktor Zuba} - Tworzenie danych testowych do bazy oraz ich relacyjnego modelu. Tworzene modułów dla serwera analitycznego służących predykcj i rekomendacji.
 \end{itemize}
 
+\chapter{Podsumowanie}
+
 
 \begin{thebibliography}{99}
 \addcontentsline{toc}{chapter}{Bibliografia}
-\bibitem[AZR]{AZR}
-dokumentacja techniczna Azure :
+\bibitem[AZR]{AZR} Microsoft
+\textit{dokumentacja techniczna Azure} \\
 http://azure.microsoft.com/en-us/documentation/
 \bibitem[PTN]{ptn}
-dokumentacja techniczna języka Python : 
-https://docs.python.org/3/
-\bibitem[DGO]{DGO} 
-dokumentacja techniczna Django : 
+Python Software Foundation
+\textit{dokumentacja techniczna języka Python} \\
+https://docs.python.org/2.7/
+\bibitem[DGO]{DGO} Django Software Foundation
+\textit{dokumentacja techniczna Django} \\ 
 https://docs.djangoproject.com/en/1.8/
-\bibitem[R]{R}
-dokumentacja techniczna języka R :
+\bibitem[R]{R} R Development Core Team
+\textit{dokumentacja techniczna języka R} \\
 http://cran.r-project.org/manuals.html
-\bibitem[RSV]{RSV}
-dokumentacja techniczna serwera R - modułu RServe :
+\bibitem[RSV]{RSV} Simon Urbanek
+\textit{dokumentacja techniczna serwera R - modułu RServe} \\
 http://www.rforge.net/Rserve/doc.html
 \end{thebibliography}
 \end{document}
