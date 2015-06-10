@@ -248,11 +248,12 @@ Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu moż
  
 \item \textbf{Chmura} - Sercem systemu jest główny serwer wraz z innymi usługami znajdujący się w chmurze internetowej. Znajduje się na niej serwer bazy danych, serwer WWW oraz serwer usług analitycznych.
 
-\item \textbf {RDB} - Relacyjna baza danych zawierająca statystyczne dane dotyczące zdawalności przedmiotów przez studentów, ich zapełnienia, popularność itd. Stanowi bazę do tworzenia predykcji. Zawiera również bazę wyliczonych przez algorytmy rezultatów które wspierają modyfikacj
+\item \textbf {RDB} - Relacyjna baza danych zawierająca statystyczne dane dotyczące zdawalności przedmiotów przez studentów, ich zapełnienia, popularność itd. Stanowi bazę do tworzenia predykcji.
 
-\item \textbf{Serwer analityczny} - serwer na którym odbywa się preprocessing, przetwarzanie danych oraz obliczanie predykcji dla studenta.
+\item \textbf{Sysytem R} - język i zestaw bibliotek uczenia maszynowego wykorzystywany w predykcjach.
 
-\item \textbf{Moduł integracyjny} - moduł który łączy się z bazą danych systemu USOS i konwertuje przekazywane z niej dane na format bazy danych systemu Hermes
+\item \textbf{Rserve} - serwer pośredniczący między stroną WWW a systemem R. Strona komunikuje się z R
+poprzez komunikaty wysyłane do Rserve.
  
 \item \textbf{USOS Api} - API udostępniane przez system USOS. Nasz system wykorzystuje je w celu zebrania danych zalogowanego użytkownika niezbędnych do zarekomendowania mu tego czego oczekuje.
 
@@ -268,17 +269,17 @@ Po wybraniu opcji przewidywania popularności przedmiotów pracownik z menu moż
 Schemat działania i komunikacji między poszczególnymi komponentami wygląda następująco:
 \begin{enumerate}
 
-\item Na samym początku działania system tworzy relacyjną bazę danych zawierającą dane statystyczne z USOSa. Przy pobieraniu danych z USOS wykorzystywany jest moduł integracyjny w celu dostosowania danych.
+\item Na samym początku system R dokonuje obliczeń i wstępnego przetworzenia zebranych danych budując modele i funkcje, według których będa obliczane predykcje.
 
-\item Serwer analityczny dokonuje obliczeń i wstępnego przetworzenia zebranych danych aby usprawnić wyliczanie przyszłych predykcji.
+\item Poprzez Rserve modele są zapamiętane w systemie.
 
 \item Po wykonaniu przetworzenia danych i obliczenia statystyk aktywuje się serwer WWW i system staje się dostępny dla użytkowników.
 
-\item Użytkownik wchodzi na stronę i otrzymuje formularz logowania. W przypadku udanego logowania serwer pobiera dane użytkownika za pośrednictwem USOS Api i zwraca stronę WWW - interfejs użytkownika.
+\item Użytkownik wchodzi na stronę i otrzymuje formularz logowania. Możliwy jest również tryb pracy dla użytkownika anonimowego.
 
-\item Serwer WWW po odebraniu prośby o rekomendacje przesyła żądanie do serwera analitycznego z poleceniem obliczenia predykcji, Wykorzystuje się przy tym odebrane wcześniej dane użytkownika.
+\item Serwer WWW po odebraniu prośby o rekomendacje przesyła żądanie do Rserve z poleceniem obliczenia predykcji, wykorzystując się przy tym odebrane wcześniej dane użytkownika.
 
-\item Serwer WWW odbiera rezultat zapytania od serwera analitycznego i wyświetla go użytkownikowi za pośrednictwem strony WWW.
+\item Serwer WWW odbiera rezultat zapytania i wyświetla go użytkownikowi za pośrednictwem strony WWW.
 
 \end{enumerate}
 
@@ -297,14 +298,14 @@ Technologie wykorzystywane w naszym systemie: \par
             \includegraphics[width=10cm, height = 3cm]{sql-server-2014-logo.png}
 \end{minipage} \\ \\
 
-\noindent \textbf{Microsoft SQL Server 2014} - Komercyjny serwer bazodanowy udostępniany przez Microsoft. Znajduje się w nim relacyjna baza danych zawierająca dane niezbędne do stworzenia modelu analitycznego.  \par ~\\
+\noindent \textbf{MySQL} - Jeden z najpopularniejszych serwerów relacyjncyh baz danych. Znajduje się w nim relacyjna baza danych zawierająca dane niezbędne do stworzenia modeli uczenia maszynowego.  \par ~\\
 
 \begin{minipage}{\linewidth}
             \centering
             \includegraphics[width=4cm, height = 4cm]{R.png}
 \end{minipage} \\ \\
 
-\textbf{R} - język skryptowy używany w celu analizy danych a także obliczania predykcji dla studentów bądź uniwersytetu. \par
+\textbf{R} - język i zestaw bibliotek używany w celu analizy danych a także obliczania predykcji dla studentów bądź uniwersytetu. \par
 \begin{itemize}
 
 \begin{figure}
@@ -333,7 +334,7 @@ niezbędnych do rekomendacji.
 
 \chapter{Zastosowane Algorytmy}
 ~\\ \indent Przy tworzeniu algorytmow wykorzystalismy pakiet statystyczny R. Gwarantowal on duza kontrole nad algorytmami,
-ktorych uzywalismy. W naszej pracy pojawily sie wszystkie najwazniejsze rodzaje algorytmow uzwanych w eksploracji danych:
+ktorych uzywalismy. W naszej pracy pojawily sie wszystkie najwazniejsze rodzaje algorytmow uzywanych w eksploracji danych:
 \begin{itemize}
  \item klasyfikacja
  \item poszukiwanie regul asocjacyjnych
@@ -394,7 +395,10 @@ zaleta tego klasyfikatora jest to, ze buduje on juz wczesniej model i decyzja dl
 jest bardzo szybko, w przeciwienstwie do klasyfikatora knn. Kod w R:
 \lstinputlisting{rf.R}
 \subsection{Algorytmy uzywane przy predykcji ocen}
-TODO
+Przy predykcji ocen użyliśmy wyłącznie klasyfikatora najbliższych sąsiadów. W przypadku wyboru algorytmu uczenia nadzorowanego, musielibyśmy trenować nasz klasyfikator dla każdego przedmiotu, co przy dużej 
+liczbie przedmiotów jest zadaniem dość karkołomnym. Dlatego zdecydowaliśmy się na algorytm uczenia nienadzorowanego, który dobrze się sprawdzał w poprzednich predykcjach. Tutaj algorytm wybiera 100 najbliższych sasiadów i wybiera tych, którzy wzięli dany przedmiot, następnie przelicza średnią ocen
+wybranych studentów z tego przedmiotu i zwraca ją jako wynik klasyfikacji.
+
 
 \chapter{Organizacja pracy oraz podział obowiązków} ~\\
 
@@ -415,7 +419,7 @@ TODO : tu będzie drzewko naszego repo.
 
 Przydział zadań do osób i planowanie pracy zostały zrealizowane za pomocą portalu Redmine. \\
 
-Praca na początku projektu przebiegała dość chaotycznie, z długimi przerwami. Dużą blokadą były dla nas problem z efektywną pracą nad predykcjami z SSAS oraz brak danych bliższych rzeczywistości utrudniający nam wyjście poza teoretyczne rozważanie o algorytmach. Realną pracę wychodzącą poza studiowanie dokumentacji i metodę prób i błędów prowadząca do nikąd zaczęliśmy dopiero po decyzji o zmianie technologii w lutym. Praca odbywała się wtedy w cotygodniowych iteracjach, a znacząco przyśpieszyła w kwietniu po ostatecznej decyzji o braku możliwości otrzymania jakichkolwiek danych przypominających rzeczywiste. Niestety ze względu na niezbyt długi pozostały wówczas czas nie udało nam się zrealizować wszystkich planów.
+Praca na początku projektu przebiegała dość chaotycznie, z długimi przerwami. Dużą blokadą były dla nas problem z efektywną pracą nad predykcjami z SSAS oraz brak danych bliższych rzeczywistości utrudniający nam wyjście poza teoretyczne rozważanie o algorytmach. Realną pracę wychodzącą poza studiowanie dokumentacji i metodę prób i błędów prowadząca do nikąd zaczęliśmy dopiero po decyzji o zmianie technologii w lutym. Praca odbywała się wtedy w cotygodniowych iteracjach, a znacząco przyśpieszyła w kwietniu po ostatecznej decyzji o braku możliwości otrzymania jakichkolwiek danych przypominających rzeczywiste. Niestety ze względu na niezbyt długi pozostały wówczas czas nie udało nam się zrealizować wszystkich funkcjonalności.
 
 \section{Podział Obowiązków} ~\\
 
@@ -423,11 +427,12 @@ TODO (przy działającym serwisie rzetelnie opiszę wkład osób)
 ~\\ \indent W projekcie Hermes podział pracy był następujący:
 
 \begin{itemize}
-\item \textbf{Tomasz Grabowski} - Redakcja licencjatu, prezentacja, pomoc przy tworzeniu danych testowych do bazy.
-\item \textbf{Adam Markiewicz} - Administrowanie serwerem umieszczonym na Azure.
-\item \textbf{Albert Rozmus} - Pomoc przy tworzeniu frontendu i serwera WWW
-\item \textbf{Krzysztof Rutkowski} - Tworzenie frontendu, zarządzanie serwerem analitycznym, pomoc przy tworzeniu modułów dla serwera analitycznego służących predykcji i rekomendacji.
-\item \textbf{Wiktor Zuba} - Tworzenie danych testowych do bazy oraz ich relacyjnego modelu. Tworzene modułów dla serwera analitycznego służących predykcj i rekomendacji.
+\item \textbf{Tomasz Grabowski} - Redakcja licencjatu, pomoc przy tworzeniu danych testowych do bazy,
+pomoc przy tworzeniu frontendu.
+\item \textbf{Adam Markiewicz} - Administrowanie serwerem umieszczonym na Azure, pomoc przy tworzeniu frontendu.
+\item \textbf{Albert Rozmus} - Pomoc przy tworzeniu frontendu i serwera WWW, prezentacja.
+\item \textbf{Krzysztof Rutkowski} - Tworzenie algorytmów uczenia maszynowego służących predykcji i rekomendacji, komunikacja funkcji i modeli uczenia maszynowego z systemem. 
+\item \textbf{Wiktor Zuba} - Tworzenie danych testowych do bazy oraz ich relacyjnego modelu. 
 \end{itemize}
 
 \chapter{Podsumowanie} ~\\ \indent

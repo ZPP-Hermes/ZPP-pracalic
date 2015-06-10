@@ -1,16 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  25 MAY 2015 23:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.5)  10 JUN 2015 22:35
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **ZPP_pracalic.tex
-(./ZPP_pracalic.tex
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\ZPP_pracalic.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(./pracamgr.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\pracamgr.cls
 Document Class: pracamgr 2006/05/05 v0.5.0 Praca magisterska
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,18 +33,19 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\polski.sty
 Package: polski 2008/02/24 v1.3.3 Polish language package
 
 Document language package `polski' v1.3.3 <2008/02/24>
+\l@nohyphenation=\language69
    Switching to Polish text encoding and Polish maths fonts.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot4enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot4enc.def"
 File: ot4enc.def 2005/09/27 v1.99g Standard LaTeX file
 )
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 346.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmr.fd
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -72,19 +80,19 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 346.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -234,7 +242,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -265,7 +273,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -291,29 +299,29 @@ Now handling font encoding OT4 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
 )
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
@@ -335,10 +343,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -346,24 +354,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen105
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -404,7 +412,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks24
 \thm@bodyfont=\toks25
@@ -416,41 +424,41 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip51
 \dth@everypar=\toks29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-(/usr/share/texlive/texmf-dist/tex/latex/underscore/underscore.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\underscore\underscore.s
+ty
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -481,7 +489,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -489,27 +497,27 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen116
 \Hy@linkcounter=\count102
 \Hy@pagecounter=\count103
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count104
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -521,7 +529,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count105
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -546,22 +554,22 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count110
 \c@bookmark@seq@number=\count111
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip52
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen120
@@ -575,7 +583,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count112
 Package caption Info: hyperref package is loaded.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count113
 \lst@gtempboxa=\box28
 \lst@token=\toks31
@@ -589,29 +597,26 @@ Package caption Info: hyperref package is loaded.
 \lst@lineno=\count118
 \lst@maxwidth=\dimen130
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count119
 \lst@skipnumbers=\count120
 \lst@framebox=\box29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-(./ZPP_pracalic.aux)
-\openout1 = `ZPP_pracalic.aux'.
-
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\ZPP_pracalic.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
@@ -629,7 +634,7 @@ LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen131
@@ -642,28 +647,13 @@ LaTeX Font Info:    ... okay on input line 65.
 \MPnumerator=\count125
 \makeMPintoPDFobject=\count126
 \everyMPtoPDFconversion=\toks33
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 65.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count127
@@ -672,29 +662,28 @@ LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
 
-(./ZPP_pracalic.out) (./ZPP_pracalic.out)
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\ZPP_pracalic.out)
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\ZPP_pracalic.out)
 \@outlinefile=\write3
-\openout3 = `ZPP_pracalic.out'.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count128
 LaTeX Font Info:    Try loading font information for OML+plm on input line 67.
 
-(/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+plsy on input line 67.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/polski/omsplsy.fd
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+plex on input line 67.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/polski/omxplex.fd
+(C:\Users\Krzysiek\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -705,16 +694,16 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 67.
 LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{C:/Users/Krzysiek/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
 
  []
@@ -731,14 +720,14 @@ ier (name{page.2}) has been already used, duplicate ignored
 l.69 \end{abstract}
                     [2
 
-] (./ZPP_pracalic.toc
+]
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\ZPP_pracalic.toc
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10.95> on input line 1.
 )
 \tf@toc=\write4
-\openout4 = `ZPP_pracalic.toc'.
 
- [3
+[3
 
 ] [4
 
@@ -761,7 +750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<./img/loginlic.png, id=162, 451.6875pt x 316.18124pt>
+<./img/loginlic.png, id=161, 451.6875pt x 316.18124pt>
 File: ./img/loginlic.png Graphic file (type png)
 
 <use ./img/loginlic.png>
@@ -782,7 +771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--112
 
  []
 
-<./img/logowanielic.png, id=163, 451.6875pt x 316.18124pt>
+<./img/logowanielic.png, id=162, 451.6875pt x 316.18124pt>
 File: ./img/logowanielic.png Graphic file (type png)
 
 <use ./img/logowanielic.png>
@@ -795,8 +784,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--124
 
 [7
 
- <./img/loginlic.png>]
-<./img/wyborstudent.png, id=169, 451.6875pt x 316.18124pt>
+ <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/loginlic.png>]
+<./img/wyborstudent.png, id=167, 451.6875pt x 316.18124pt>
 File: ./img/wyborstudent.png Graphic file (type png)
 
 <use ./img/wyborstudent.png>
@@ -807,7 +796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--132
 
  []
 
-<./img/predykcjaocenstart.png, id=171, 451.6875pt x 316.18124pt>
+<./img/predykcjaocenstart.png, id=169, 451.6875pt x 316.18124pt>
 File: ./img/predykcjaocenstart.png Graphic file (type png)
 
 <use ./img/predykcjaocenstart.png>
@@ -826,12 +815,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--144
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./img/logowanielic.png> <./img/wyborstudent.png>]
+ [8 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/logowanielic.p
+ng> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/wyborstudent.p
+ng>]
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
  []
 
-<./img/predykcjaocenresult.png, id=177, 451.6875pt x 316.18124pt>
+<./img/predykcjaocenresult.png, id=175, 451.6875pt x 316.18124pt>
 File: ./img/predykcjaocenresult.png Graphic file (type png)
 
 <use ./img/predykcjaocenresult.png>
@@ -842,7 +833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--153
 
  []
 
-<./img/reksem.png, id=178, 451.6875pt x 316.18124pt>
+<./img/reksem.png, id=176, 451.6875pt x 316.18124pt>
 File: ./img/reksem.png Graphic file (type png)
  <use ./img/reksem.png>
 Package pdftex.def Info: ./img/reksem.png used on input line 160.
@@ -852,16 +843,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--163
 
  []
 
-[9 <./img/predykcjaocenstart.png> <./img/predykcjaocenresult.png>]
-<./img/bestsem.png, id=185, 451.6875pt x 316.18124pt>
+[9 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/predykcjaocenst
+art.png> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/predykcja
+ocenresult.png>] <./img/bestsem.png, id=183, 451.6875pt x 316.18124pt>
 File: ./img/bestsem.png Graphic file (type png)
- <use ./img/bestsem.png>
+
+<use ./img/bestsem.png>
 Package pdftex.def Info: ./img/bestsem.png used on input line 168.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
-
-<./img/ranksem.png, id=186, 451.6875pt x 316.18124pt>
+ <./img/ranksem.png, id=184, 451.6875pt x 316.18124pt>
 File: ./img/ranksem.png Graphic file (type png)
- <use ./img/ranksem.png>
+
+<use ./img/ranksem.png>
 Package pdftex.def Info: ./img/ranksem.png used on input line 174.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
@@ -877,8 +870,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--177
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./img/reksem.png> <./img/bestsem.png>]
-<./img/bestprzed.png, id=193, 451.6875pt x 316.18124pt>
+ [10 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/reksem.png> <
+C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/bestsem.png>]
+<./img/bestprzed.png, id=191, 451.6875pt x 316.18124pt>
 File: ./img/bestprzed.png Graphic file (type png)
 
 <use ./img/bestprzed.png>
@@ -894,7 +888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--187
 
  []
 
-<./img/bestprzedsem.png, id=194, 451.6875pt x 316.18124pt>
+<./img/bestprzedsem.png, id=192, 451.6875pt x 316.18124pt>
 File: ./img/bestprzedsem.png Graphic file (type png)
 
 <use ./img/bestprzedsem.png>
@@ -905,8 +899,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--194
 
  []
 
-[11 <./img/ranksem.png> <./img/bestprzed.png>]
-<./img/bestprzedzainteresowania.png, id=202, 451.6875pt x 316.18124pt>
+[11 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/ranksem.png> <
+C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/bestprzed.png>]
+<./img/bestprzedzainteresowania.png, id=200, 451.6875pt x 316.18124pt>
 File: ./img/bestprzedzainteresowania.png Graphic file (type png)
 
 <use ./img/bestprzedzainteresowania.png>
@@ -918,7 +913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--203
 
  []
 
-<./img/bestprzedeasy.png, id=203, 451.6875pt x 316.18124pt>
+<./img/bestprzedeasy.png, id=201, 451.6875pt x 316.18124pt>
 File: ./img/bestprzedeasy.png Graphic file (type png)
 
 <use ./img/bestprzedeasy.png>
@@ -932,8 +927,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--211
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./img/bestprzedsem.png> <./img/bestprzedzainteresowania.png>]
-<./img/logowanieprac.png, id=210, 451.6875pt x 316.18124pt>
+ [12 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/bestprzedsem.
+png> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/bestprzedzain
+teresowania.png>] <./img/logowanieprac.png, id=208, 451.6875pt x 316.18124pt>
 File: ./img/logowanieprac.png Graphic file (type png)
 
 <use ./img/logowanieprac.png>
@@ -958,10 +954,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--229
 
  []
 
-[13 <./img/bestprzedeasy.png> <./img/logowanieprac.png>]
+[13 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/bestprzedeasy.
+png> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/logowanieprac
+.png>]
 File: ./img/logowanieprac.png Graphic file (type png)
-
-<use ./img/logowanieprac.png>
+ <use ./img/logowanieprac.png>
 Package pdftex.def Info: ./img/logowanieprac.png used on input line 233.
 (pdftex.def)             Requested size: 316.17908pt x 221.32535pt.
 
@@ -971,7 +968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--236
 
 [14]
 Rozdzia\PlPrIeC {\l } 3.
-<./img/architekturaR.png, id=221, 489.7497pt x 244.0317pt>
+<./img/architekturaR.png, id=219, 489.7497pt x 244.0317pt>
 File: ./img/architekturaR.png Graphic file (type png)
 
 <use ./img/architekturaR.png>
@@ -994,115 +991,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--247
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 249.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 249.
  [15
 
- <./img/architekturaR.png>] [16]
+ <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/architekturaR.png
+>] [16]
 Rozdzia\PlPrIeC {\l } 4.
-<./img/azure.jpg, id=237, 424.58624pt x 119.44624pt>
+<./img/azure.jpg, id=235, 424.58624pt x 119.44624pt>
 File: ./img/azure.jpg Graphic file (type jpg)
  <use ./img/azure.jpg>
-Package pdftex.def Info: ./img/azure.jpg used on input line 291.
+Package pdftex.def Info: ./img/azure.jpg used on input line 292.
 (pdftex.def)             Requested size: 284.54257pt x 85.35783pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 289--294
+Overfull \hbox (17.0pt too wide) in paragraph at lines 290--295
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--294
+Underfull \hbox (badness 10000) in paragraph at lines 290--295
 
  []
 
-<./img/sql-server-2014-logo.png, id=238, 149.8398pt x 47.6982pt>
+<./img/sql-server-2014-logo.png, id=236, 149.8398pt x 47.6982pt>
 File: ./img/sql-server-2014-logo.png Graphic file (type png)
 
 <use ./img/sql-server-2014-logo.png>
-Package pdftex.def Info: ./img/sql-server-2014-logo.png used on input line 297.
+Package pdftex.def Info: ./img/sql-server-2014-logo.png used on input line 298.
 
 (pdftex.def)             Requested size: 284.57736pt x 85.36246pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--299
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--299
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-<./img/R.png, id=239, 349.305pt x 264.99pt>
+<./img/R.png, id=237, 349.305pt x 264.99pt>
 File: ./img/R.png Graphic file (type png)
  <use ./img/R.png>
-Package pdftex.def Info: ./img/R.png used on input line 304.
+Package pdftex.def Info: ./img/R.png used on input line 305.
 (pdftex.def)             Requested size: 113.8106pt x 113.81004pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 302--306
+Overfull \hbox (17.0pt too wide) in paragraph at lines 303--307
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
 
  []
 
-<./img/python-logo-master-v3-TM.png, id=240, 611.75027pt x 206.63113pt>
+<./img/python-logo-master-v3-TM.png, id=238, 611.75027pt x 206.63113pt>
 File: ./img/python-logo-master-v3-TM.png Graphic file (type png)
 
 <use ./img/python-logo-master-v3-TM.png>
 Package pdftex.def Info: ./img/python-logo-master-v3-TM.png used on input line 
-314.
+315.
 (pdftex.def)             Requested size: 170.7195pt x 85.35934pt.
 
-<./img/django-logo-negative.png, id=241, 1204.5pt x 548.0475pt>
+<./img/django-logo-negative.png, id=239, 1204.5pt x 548.0475pt>
 File: ./img/django-logo-negative.png Graphic file (type png)
 
 <use ./img/django-logo-negative.png>
-Package pdftex.def Info: ./img/django-logo-negative.png used on input line 318.
+Package pdftex.def Info: ./img/django-logo-negative.png used on input line 319.
 
 (pdftex.def)             Requested size: 170.70569pt x 85.35625pt.
  [17
 
- <./img/azure.jpg> <./img/sql-server-2014-logo.png> <./img/R.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+ <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/azure.jpg> <C:/Us
+ers/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/sql-server-2014-logo.png
+> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/R.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
-<./img/usosapi.jpg, id=249, 218.31563pt x 73.02281pt>
+<./img/usosapi.jpg, id=247, 218.31563pt x 73.02281pt>
 File: ./img/usosapi.jpg Graphic file (type jpg)
  <use ./img/usosapi.jpg>
-Package pdftex.def Info: ./img/usosapi.jpg used on input line 326.
+Package pdftex.def Info: ./img/usosapi.jpg used on input line 327.
 (pdftex.def)             Requested size: 199.17053pt x 71.13843pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
-[18 <./img/python-logo-master-v3-TM.png> <./img/django-logo-negative.png> <./im
-g/usosapi.jpg>]
+[18 <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/python-logo-ma
+ster-v3-TM.png> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracalic/img/dj
+ango-logo-negative.png> <C:/Users/Krzysiek/Desktop/ZPP/pracaLicWork/ZPP-pracali
+c/img/usosapi.jpg>]
 Rozdzia\PlPrIeC {\l } 5.
-(./dist.R
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\dist.R
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
@@ -1118,22 +1121,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 360.
+(hyperref)                than one, level fixed on input line 361.
 
-(./nearestSub.R) [20] (./rf.R) [21] [22
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\nearestSub.R) [20]
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\rf.R) [21] [22
 
 ]
 Rozdzia\PlPrIeC {\l } 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
@@ -1144,18 +1138,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
@@ -1166,46 +1170,50 @@ Rozdzia\PlPrIeC {\l } 7.
 ] [26
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
  [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
- (./ZPP_pracalic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
+
+(C:\Users\Krzysiek\Desktop\ZPP\pracaLicWork\ZPP-pracalic\ZPP_pracalic.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
 Package rerunfilecheck Info: File `ZPP_pracalic.out' has not changed.
-(rerunfilecheck)             Checksum: F873B7B14AE0E853E18A0EF038589C1E;1682.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 464.
+(rerunfilecheck)             Checksum: 4A49F04F7B663D9C0A5A2E64D5A96770;1706.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
  ) 
 Here is how much of TeX's memory you used:
- 10704 strings out of 493304
- 151028 string characters out of 6139872
- 328848 words of memory out of 5000000
- 13872 multiletter control sequences out of 15000+600000
- 19958 words of font info for 60 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 41i,10n,41p,1221b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plit.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/e
-nc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc
-}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/pl/plbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/p
-lbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plex10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl
-/plr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr17.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/pl/plr6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/pl/plr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/pls
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/pl/plti10.pfb>
-Output written on ZPP_pracalic.pdf (29 pages, 937349 bytes).
+ 10599 strings out of 493921
+ 150575 string characters out of 3147274
+ 324016 words of memory out of 3000000
+ 13611 multiletter control sequences out of 15000+200000
+ 19958 words of font info for 60 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,10n,40p,1221b,1995s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plit.enc}{C:
+/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}{C:/User
+s/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Users/Krz
+ysiek/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plme.enc}{C:/Users/Krzysiek
+/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}<C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/pl/plbx10.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/pl/plbx12.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/pl/plex10.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/pl/plmi10.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/pl/plmi8.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/font
+s/type1/public/pl/plr10.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts
+/type1/public/pl/plr12.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/public/pl/plr17.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/public/pl/plr6.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/public/pl/plr8.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/pl/plr9.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/pl/plsy10.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/pl/plsy9.pfb><C:/Users/Krzysiek/AppData/Roaming/MiKTeX/2.9/fonts/type1/pu
+blic/pl/plti10.pfb>
+Output written on ZPP_pracalic.pdf (29 pages, 986699 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 343 compressed objects within 4 object streams
+ 424 PDF objects out of 1000 (max. 8388607)
  101 named destinations out of 1000 (max. 500000)
  293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
