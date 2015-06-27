@@ -3,21 +3,22 @@
 \contentsline {section}{\numberline {1.2}od Autor\IeC {\'o}w}{6}{section.1.2}
 \contentsline {chapter}{\numberline {2}Funkcjonalno\IeC {\'s}ci}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Funkcjonalno\IeC {\'s}ci dla Student\IeC {\'o}w}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Predykcja ocen}{8}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Remomendacja seminari\IeC {\'o}w}{9}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Rekomendacja przedmiot\IeC {\'o}w}{11}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Funkcjonalno\IeC {\'s}ci dla Administracji}{13}{section.2.2}
-\contentsline {chapter}{\numberline {3}Architektura}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Schemat Architektury}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Schemat wsp\IeC {\'o}\IeC {\l }dzia\IeC {\l }ania komponent\IeC {\'o}w architektury}{16}{section.3.2}
-\contentsline {chapter}{\numberline {4}Technologia}{17}{chapter.4}
-\contentsline {chapter}{\numberline {5}Zastosowane Algorytmy}{19}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}Algorytmy u\IeC {\.z}yte przy proponowaniu przedmiot\IeC {\'o}w}{20}{subsection.5.0.1}
-\contentsline {subsection}{\numberline {5.0.2}Algorytmy u\IeC {\.z}ywane przy predykcji seminari\IeC {\'o}w}{21}{subsection.5.0.2}
-\contentsline {subsection}{\numberline {5.0.3}Algorytmy u\IeC {\.z}ywane przy predykcji ocen}{21}{subsection.5.0.3}
-\contentsline {chapter}{\numberline {6}Organizacja pracy oraz podzia\IeC {\l } obowi\IeC {\k a}zk\IeC {\'o}w}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Praca nad systemem}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Organizacja Pracy}{24}{section.6.2}
-\contentsline {section}{\numberline {6.3}Podzia\IeC {\l } Obowi\IeC {\k a}zk\IeC {\'o}w}{24}{section.6.3}
-\contentsline {chapter}{\numberline {7}Podsumowanie}{27}{chapter.7}
-\contentsline {chapter}{Bibliografia}{29}{chapter*.3}
+\contentsline {subsection}{\numberline {2.1.1}Predykcja ocen}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Remomendacja seminari\IeC {\'o}w}{11}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Rekomendacja przedmiot\IeC {\'o}w}{13}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Rekomendacja przedmiot\IeC {\'o}w do seminarium}{15}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Funkcjonalno\IeC {\'s}ci dla Administracji}{17}{section.2.2}
+\contentsline {chapter}{\numberline {3}Architektura}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Schemat Architektury}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Schemat wsp\IeC {\'o}\IeC {\l }dzia\IeC {\l }ania komponent\IeC {\'o}w architektury i przep\IeC {\l }ywu danych}{20}{section.3.2}
+\contentsline {chapter}{\numberline {4}Technologia}{23}{chapter.4}
+\contentsline {chapter}{\numberline {5}Zastosowane Algorytmy}{25}{chapter.5}
+\contentsline {subsection}{\numberline {5.0.1}Algorytmy u\IeC {\.z}yte przy proponowaniu przedmiot\IeC {\'o}w}{26}{subsection.5.0.1}
+\contentsline {subsection}{\numberline {5.0.2}Algorytmy u\IeC {\.z}ywane przy predykcji seminari\IeC {\'o}w}{27}{subsection.5.0.2}
+\contentsline {subsection}{\numberline {5.0.3}Algorytmy u\IeC {\.z}ywane przy predykcji ocen}{27}{subsection.5.0.3}
+\contentsline {chapter}{\numberline {6}Organizacja pracy oraz podzia\IeC {\l } obowi\IeC {\k a}zk\IeC {\'o}w}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Praca nad systemem}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Organizacja Pracy}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Podzia\IeC {\l } Obowi\IeC {\k a}zk\IeC {\'o}w}{30}{section.6.3}
+\contentsline {chapter}{\numberline {7}Podsumowanie}{33}{chapter.7}
+\contentsline {chapter}{Bibliografia}{35}{chapter*.3}

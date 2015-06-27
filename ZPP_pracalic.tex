@@ -106,7 +106,7 @@ Przy wejciu na stronę systemu użytkownik otrzymuje stronę startową która je
 ~\\
 \begin{minipage}{\linewidth}
 	 \centering
-           \includegraphics[scale=0.65]{home.jpg}
+           \includegraphics[scale=0.5]{home.jpg}
 	\text{Ekran startowy strony}
 \end{minipage} \\ \\ \\
 
@@ -118,15 +118,15 @@ W tym podrozdziale znajduje się opis funkcjonalności dostępnych dla użytkown
 ~\\
 
 
-W przypadku wyboru zakładki "wprowadź oceny" student uzyskuje możliwość wprowadzenia danych z przedmiotu w celu uzyskania nastepujących predykcji: predykcja oceny z przedmiotu, rekomendacja seminarium oraz rekomendacja przedmiotu. Intefejs ten umozliwia dodawanie dowolnej liczby przedmiotów za pomocą przycisku "plus". Dodatkowo przy wpisywaniu nazwy przedmiotu pojawia się podpowiedź sugerująca istniejące nazwy przedmiotów z bazy pasujące do wpisanego wzorca.   \par
+W przypadku wyboru zakładki "wprowadź oceny" student uzyskuje możliwość wprowadzenia danych dotyczacych statystyki jego zaliczeń przedmiotów w celu uzyskania nastepujących predykcji: predykcja oceny z przedmiotu, rekomendacja seminarium oraz rekomendacja przedmiotów na podstawie osiągnięć bądź rekomendacja przedmiotów dla wybranego seminarium. Intefejs ten umozliwia dodawanie dowolnej liczby przedmiotów za pomocą przycisku "plus". Dodatkowo przy wpisywaniu nazwy przedmiotu pojawia się podpowiedź sugerująca istniejące nazwy przedmiotów z bazy pasujące do wpisanego wzorca.   \par
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
-           \includegraphics[scale=0.5]{interfejsWstepny.jpg}
+           \includegraphics[scale=0.50]{interfejsWstepny.jpg}
 	\text{interfejs po wyborze opcji "wprowadź oceny"}
 \end{minipage} \\ 
 
-
+\newpage
 
 \subsection{Predykcja ocen}
 ~\\ \indent
@@ -134,12 +134,20 @@ Użytkownik wybiera predykcję oceny z przedmiotu za pomocą opcji "wybierz prze
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
+           \includegraphics[scale=0.5]{predykcjaPrzedmSelect.jpg}
+	\text{wybór opcji predykcji oceny z przedmiotu}
+\end{minipage} \\ \\
+
+\newpage
+Po wybraniu tej opcji użytkownik może z rozwijanej listy wybrać przedmiot,z którego chce predykcję. ~\\ \par
+\begin{minipage}{\linewidth}
+          \centering
            \includegraphics[scale=0.5]{predykcjaPrzedm.jpg}
 	\text{wybór przedmiotu do predykcji}
 \end{minipage} \\ \\
 
 
-Po jego wybraniu i uzycia opcji wyślil użytkownik otrzymuje wynik w postaci następującej strony: \\ \par 
+Po jego wybraniu i użyciu opcji "wyślij"  użytkownik otrzymuje wynik w postaci następującej strony: \\ \par 
  ~\\
 \begin{minipage}{\linewidth}
 	\centering
@@ -150,47 +158,42 @@ Po jego wybraniu i uzycia opcji wyślil użytkownik otrzymuje wynik w postaci na
 \subsection{Remomendacja seminariów}
 ~\\ \indent
 
-TODO nie działa na moim kompie predykcja seminariów.
+Użytkownik chcąc otrzymać rekomendowane seminaria musi wybrać opcję otrzymania rekomendacji seminarium wg jednego z dwóch algorytmów: strategii lasów losowych bądź najbliższych sąsiadów. \par 
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.5]{reksem.jpg}
+	\text{wybór opcji rekomendacji seminarium}
+\end{minipage} \\
 
-Po wybraniu opcji rekomendacji seminariów student staje przed wyborem dwóch opcji : wybierz najlepsze bądź pokaż ranking. \par 
-~\\
-\begin{minipage}{\linewidth}
-	\centering
-           \includegraphics[scale=0.7]{reksem.png}
-	\text{Interfejs rekomendacji seminariów}
-\end{minipage} \\ 
+\newpage
 
-W obu wypadkach system korzysta z pobranego za pomocą USOSApi programu studiów studenta. Jeżeli student ma więcej niż 1 aktywny kierunek studiow, system prosi go o wybór programu, dla którego predykcja seminariów go interesuje. W zależności od wybranej opcji student otrzymuje jedno seminarium które wg systemu najbardziej pasuje do studenta badź też ranking seminariów od najbardziej pasującego do najmniej wg predykcji systemu. \par
+Na podstawie danych wprowadzonych przez studenta oraz wybranych przez niego algorytmów rekomendacji seminarium student otrzymuje wyniki predykcji \par
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
-           \includegraphics[scale=0.7]{bestsem.png}
-	\text{Przykładowy rezultat prośby zarkeomendowanie najlepszego seminarium}
-\end{minipage} \\  
+           \includegraphics[scale=0.5]{rekSemResult.jpg}
+	\text{Przykładowy rezultat prośby o zarekomendowanie seminarium}
+\end{minipage} \\  \\ \\
+Dla każdego seminarium użytkownik może podejrzeć informacje dotyczące zwróconego przemiotu, takie jak jego strona w systemie usos czy też podstawowe statystyki jak zdawalność i średnia ocena \par
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
-           \includegraphics[scale=0.7]{ranksem.png}
+           \includegraphics[scale=0.5]{rekSemResultInfo.jpg}
 	\text{Przykładowy rezultat prośby o obliczenie rankingu seminariów}
 \end{minipage} \\ 
 
 
 \subsection{Rekomendacja przedmiotów} ~\\ \indent
-Po wybraniu opcji rekomendacji przedmiotów student otrzymuje wybór kilku opcji. Może wybrać opcje "znajdź najłatwiejsze", "szczęśliwy traf", "ranking wg algorytmu najbliższych sąsiadów" oraz "znajdź wg algorytmu regułowego". Możliwy jest także wybór rankingu przedmiotów według wybranego przez siebie seminarium (tzn przedmioty które są najbardziej z nim związane). \par
+Po wybraniu opcji rekomendacji przedmiotów student otrzymuje wybór kilku opcji. Może wybrać opcje "znajdź najłatwiejsze", szczęśliwy traf - "sposób losowy", "ranking wg algorytmu najbliższych sąsiadów" oraz "znajdź wg algorytmu regułowego". \par
  ~\\
 \begin{minipage}{\linewidth}
 	\centering
            \includegraphics[scale=0.5]{rekPrzedm.jpg}
 	\text{Interfejs użytkownika dla opcji rekomendacji przedmiotów - wybór algorytmów}
 \end{minipage} \\  \\ \\
-\indent Dodatkowo możliwy wybór seminarium do predykcji. \par
- ~\\
-\begin{minipage}{\linewidth}
-	\centering
-           \includegraphics[scale=0.5]{rekPrzedSem.jpg}
-	\text{Wybór seminarium na rekomendację przedmiotów związanych z seminarium}
-\end{minipage} \\ 
 
+\newpage
 
 Jako wynik każdej z tych rekomendacji student otrzymuje ranking 5 przedmiotów które wg danego algorytmu mają największą szansę pasować do zainteresowań studenta. \par
  ~\\
@@ -200,13 +203,44 @@ Jako wynik każdej z tych rekomendacji student otrzymuje ranking 5 przedmiotów 
 	\text{Przykładowy rezultat dla rekomendacji przedmiotów wg zainteresowań studenta}
 \end{minipage} \\ 
 
-Każdy przedmiot po rozwinięciu opisu zawiera proste statystyki : ogólną zdawalność, średnią z ocen, ogólny procent studentów uczęszczających na ten przedmiot czy link do strony przedmiotu w systemie USOS. \par
+Każdy przedmiot po rozwinięciu opisu zawiera proste statystyki, tak jak dla rekomendacji seminariów : ogólną zdawalność, średnią z ocen, ogólny procent studentów uczęszczających na ten przedmiot czy link do strony przedmiotu w systemie USOS. \par
  ~\\
 \begin{minipage}{\linewidth}
 	\centering
            \includegraphics[scale=0.5]{rekPrzedmRankDetails.jpg}
 	\text{Opis przedmiotu po rozwinięciu (tu Sztuczna Inteligencja)}
 \end{minipage} \\ 
+
+\subsection{Rekomendacja przedmiotów do seminarium}
+
+TODO to do poprawy : literówka w szablonie i powinna być w wyniku nazwa seminarium do którego rekomenduje się przedmioty
+
+Ostatnią funkcjonalnością dla studenta jest możliwość otrzymania rekomendacji do semianarium. Student, chcąc otrzymać taką predykcje, musi zaznaczyć opcję "Wybierz seminarium do rekomendacji przedmiotów" \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.5]{rekPrzedmSem.jpg}
+	\text{wybór opcji rekomendacji przedmiotow do seminarium}
+\end{minipage} \\
+
+Po wybraniu tej opcji student z rozwijanej listy wybiera interesujące go seminarium spośród seminariów znajdujących się w bazie \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.5]{rekPrzedmSemSelect.jpg}
+	\text{wybór opcji rekomendacji przedmiotow do seminarium}
+\end{minipage} \\
+
+Po użyciu przycisku "wyślij" student otrzymuje ranking 5 najbardziej zgodnych do jego osiągnięć i wybranego seminarium przedmiotów \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.5]{rekPrzedmSemResult.jpg}
+	\text{wybór opcji rekomendacji przedmiotow do seminarium}
+\end{minipage} \\
+
+Analogicznie do poprzednich funkcjonalności możliwe jest podejrzenie informacji o przedmiotach.
+
 \section{Funkcjonalności dla Administracji}
 ~\\ \indent
 Domyślnie miała być jeszcze funkcjonalność dla administracji, tzn predykcja popularności przedmiotów, niestety zabrakło nam czasu by ją zaimplementować.
@@ -240,20 +274,31 @@ poprzez komunikaty wysyłane do Rserve.
   
 \end{itemize}
 
-\section{Schemat współdziałania komponentów architektury}
+\section{Schemat współdziałania komponentów architektury i przepływu danych}
+~\\
+\begin{minipage}{\linewidth} 
+	\centering
+           \includegraphics[scale = 0.7]{dataFlow.jpg}
+	\text{Schemat przepływu danych w systemie}
+\end{minipage} \\ \\ 
 ~\\ \indent
+
 Schemat działania i komunikacji między poszczególnymi komponentami wygląda następująco:
 \begin{enumerate}
 
-\item Na samym początku system R dokonuje obliczeń i wstępnego przetworzenia zebranych danych budując modele i funkcje, według których będa obliczane predykcje.
+\item Na samym początku przy uruchomieniu systemu django ładuje modele na podstawie bazy danych MySQL.
 
-\item Poprzez Rserve modele są zapamiętane w systemie.
+\item R zaczyna przetwarzać dane w bazie i tworzy dataframes.
+
+\item Na podstawie obliczonych przez system na podstawie danych dataframe'ów powstaje model będący bazą do obliczania predykcji.
 
 \item Po wykonaniu przetworzenia danych i obliczenia statystyk aktywuje się serwer WWW i system staje się dostępny dla użytkowników.
 
 \item Użytkownik wchodzi na stronę i otrzymuje formularz logowania. Możliwy jest również tryb pracy dla użytkownika anonimowego.
 
 \item Serwer WWW po odebraniu prośby o rekomendacje przesyła żądanie do Rserve z poleceniem obliczenia predykcji, wykorzystując się przy tym odebrane wcześniej dane użytkownika.
+
+\item R dokonuje obliczeń na podstawie wyliczonego wcześniej modelu i zwraca do serwera WWW predykcję.
 
 \item Serwer WWW odbiera rezultat zapytania i wyświetla go użytkownikowi za pośrednictwem strony WWW.
 
@@ -416,7 +461,14 @@ TODO (przy działającym serwisie rzetelnie opiszę wkład osób)
 
 \item \textbf{Adam Markiewicz} - Administrowanie serwerem umieszczonym na Azure, pomoc przy tworzeniu frontendu.
 \item \textbf{Albert Rozmus} - Pomoc przy tworzeniu frontendu i serwera WWW, prezentacja.
-\item \textbf{Krzysztof Rutkowski} - Tworzenie algorytmów uczenia maszynowego służących predykcji i rekomendacji, komunikacja funkcji i modeli uczenia maszynowego z systemem. 
+\item \textbf{Krzysztof Rutkowski} :
+    \begin{itemize}
+        \item organizacja oraz zarządzanie pracą zespołu.
+        \item znalezienie osoby która podjęła się stworzenia plakatu.
+        \item tworzenie, implementacja i testowanie algorytmow uczenia maszynowego w R.
+        \item integracja skryptow R z frontendem.
+        \item pomoc przy tworzeniu frontendu: formularze do predykcji ocen i przedmiotów z seminarium, stworzenie modulu dla skryptów R, poprawianie jego błędów
+    \end{itemize}
 \item \textbf{Wiktor Zuba} - Tworzenie danych testowych do bazy oraz ich relacyjnego modelu. 
 \end{itemize}
 
