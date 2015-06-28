@@ -13,6 +13,9 @@
 \usepackage{xcolor}
 \usepackage{color}
 \usepackage{listings}
+\hypersetup{%
+    pdfborder = {0 0 0}
+}
 \lstset{ %
   language=R,                     % the language of the code
   basicstyle=\footnotesize,       % the size of the fonts that are used for the code
@@ -40,8 +43,10 @@
   morekeywords={*,...}            % if you want to add more keywords to the set
 } 
 
-\author{Xxx Yyy}
-\nralbumu{000000}
+\author{ Adam Markiewicz, Tomasz Grabowski, Albert Rozmus, Krzysztof Rutkowski, Wiktor Zuba}
+
+\nralbumu{334774, 305145,  248353, 319379, 320501}
+
 \title{Sugerowanie wyboru ścieżki kształcenia zintegrowane z USOS}
 \tytulang{Recomendation of educational path integrated with USOS}
 \kierunek{Informatyka}
@@ -59,7 +64,7 @@ Decision support systems\\
 Data analytics
 }
 %\TODO dodać litery/numery wierzchołków w klasyfikacji
-\keywords{słowa kluczowe}
+\keywords{Rekomendacje \\ Predykcje \\ Wnioskowanie \\ Analiza danych}
 %\newtheorem{defi}{Definicja}[section]
 \graphicspath{ {./img/} }
 \begin{document}
@@ -213,32 +218,30 @@ Każdy przedmiot po rozwinięciu opisu zawiera proste statystyki, tak jak dla re
 
 \subsection{Rekomendacja przedmiotów do seminarium}
 
-TODO to do poprawy : literówka w szablonie i powinna być w wyniku nazwa seminarium do którego rekomenduje się przedmioty
-
 Ostatnią funkcjonalnością dla studenta jest możliwość otrzymania rekomendacji do semianarium. Student, chcąc otrzymać taką predykcje, musi zaznaczyć opcję "Wybierz seminarium do rekomendacji przedmiotów" \par
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
            \includegraphics[scale=0.5]{rekPrzedmSem.jpg}
 	\text{wybór opcji rekomendacji przedmiotow do seminarium}
-\end{minipage} \\
-
+\end{minipage} \\ \\
+\newpage
 Po wybraniu tej opcji student z rozwijanej listy wybiera interesujące go seminarium spośród seminariów znajdujących się w bazie \par
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
            \includegraphics[scale=0.5]{rekPrzedmSemSelect.jpg}
-	\text{wybór opcji rekomendacji przedmiotow do seminarium}
-\end{minipage} \\
+	\text{wybór seminarium do rekomendacji przedmiotów}
+\end{minipage} \\ \\
 
 Po użyciu przycisku "wyślij" student otrzymuje ranking 5 najbardziej zgodnych do jego osiągnięć i wybranego seminarium przedmiotów \par
 ~\\
 \begin{minipage}{\linewidth}
 	\centering
            \includegraphics[scale=0.5]{rekPrzedmSemResult.jpg}
-	\text{wybór opcji rekomendacji przedmiotow do seminarium}
-\end{minipage} \\
-
+	\text{rezultat predykcji przedmiotów związanych z seminarium}
+\end{minipage} \\ ~\\
+\newpage
 Analogicznie do poprzednich funkcjonalności możliwe jest podejrzenie informacji o przedmiotach.
 
 \section{Funkcjonalności dla Administracji}
@@ -288,19 +291,17 @@ Schemat działania i komunikacji między poszczególnymi komponentami wygląda n
 
 \item Na samym początku przy uruchomieniu systemu django ładuje modele na podstawie bazy danych MySQL.
 
-\item R zaczyna przetwarzać dane w bazie i tworzy dataframes.
-
-\item Na podstawie obliczonych przez system na podstawie danych dataframe'ów powstaje model będący bazą do obliczania predykcji.
+\item R zaczyna przetwarzać dane w bazie i na ich podstawie tworzy dataframes (tzn format danych zgodny z R) które są bazą obliczania predykcji oraz rekomendacji.
 
 \item Po wykonaniu przetworzenia danych i obliczenia statystyk aktywuje się serwer WWW i system staje się dostępny dla użytkowników.
 
-\item Użytkownik wchodzi na stronę i otrzymuje formularz logowania. Możliwy jest również tryb pracy dla użytkownika anonimowego.
+\item Użytkownik wchodzi na stronę i za pośrednictwem jej interfejsu może przesłać do serwera prośbę o rekomendację bądź predykcję.
 
 \item Serwer WWW po odebraniu prośby o rekomendacje przesyła żądanie do Rserve z poleceniem obliczenia predykcji, wykorzystując się przy tym odebrane wcześniej dane użytkownika.
 
-\item R dokonuje obliczeń na podstawie wyliczonego wcześniej modelu i zwraca do serwera WWW predykcję.
+\item R dokonuje obliczeń na podstawie wyliczonego wcześniej modelu i zwraca do serwera WWW predykcję jako model R.
 
-\item Serwer WWW odbiera rezultat zapytania i wyświetla go użytkownikowi za pośrednictwem strony WWW.
+\item Serwer WWW odbiera rezultat zapytania, konwertuje go na format zgodny z formatem Django i wyświetla go użytkownikowi za pośrednictwem strony WWW.
 
 \end{enumerate}
 
@@ -434,9 +435,14 @@ Kolejnym znaczącym problemem przy realizacji projektu była mocno utrudniona pr
 \section{Organizacja Pracy} ~\\
 
 
-Naszym repozytorium był git. Drzewo projektu w repozytorium prezentuje się następująco:
-
-TODO : tu będzie drzewko naszego repo.
+W naszej pracy korzystaliśmy z repozytorium git. Było ono umieszczone na stronie \\ \textit{http://www.github.com}. W ramach tego repozytorium mieliśmy następujące odnogi:
+\begin{itemize}
+    \item \textbf{ZPP-frontend} - pierwsza wersja frontendu, zrealizowana w technologii C\# .NET, a w kolejnej iteracji za pomocą pluginu do django w Visual Studio 2013
+    \item \textbf{ZPP-Frontend2.0} - druga odnoga reprezentująca frontend realizowany w django na systemie linux. Jest to odnoga w której został stworzony końcowy efekt naszej pracy.
+    \item \textbf{ZPP-SSDT} - nazwa tej odnogi bierze się od Sql Server Data Tools - na początku trzymaliśmy w tym repozytorium projekty Sql Server Analysis Services zajmujące się analizą danych. W kolejnej iteracji w tym repozytorium umieszczane były skrypty obliczające rekomendacje w języku R.
+    \item \textbf{ZPP-slides} - w tej odnodze tworzona i przechowywana była prezentacja końcowa.
+    \item \textbf{ZPP-pracalic} - odnoga w której powstawała praca licencjacka.
+\end{itemize} ~\\
 
 Przydział zadań do osób i planowanie pracy zostały zrealizowane za pomocą portalu Redmine. \\
 
@@ -505,4 +511,6 @@ http://cran.r-project.org/manuals.html
 \textit{dokumentacja techniczna serwera R - modułu RServe} \\
 http://www.rforge.net/Rserve/doc.html
 \end{thebibliography}
+
+
 \end{document}

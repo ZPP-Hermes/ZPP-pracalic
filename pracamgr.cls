@@ -41,7 +41,7 @@
       \vspace{1cm plus 1fill} 
       {\Large\bf\@author\par}
       \vspace{0.2cm}
-      {\large Nr albumu: \@nralbumu\par}
+      {\large Nr-y albumów: \@nralbumu\par}
       \vspace{8mm plus .1fill}
       {\Huge\textbf{\@title}\par}
       \vspace{8mm plus .1fill}
