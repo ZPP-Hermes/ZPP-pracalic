@@ -248,14 +248,41 @@ Po użyciu przycisku "wyślij" student otrzymuje ranking 5 najbardziej zgodnych 
 \newpage
 Analogicznie do poprzednich funkcjonalności możliwe jest podejrzenie informacji o przedmiotach.
 
-\subsection{Użytkownik zalogowany}
+\subsection{Użytkownik zalogowany} ~\\
+\indent
+System dodatkowo umożliwa pracę w trybie użytkownika zalogowanego. 
+Rejestracja użytkownika jest obsługiwana za pomocą formularza rejestracji. \par
+~\\
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.5]{registerForm.jpg}
+	\text{formularz rejestracji użytkownika}
+\end{minipage} \\ ~\\
+
+\newpage 
+Po zalogowaniu w standardowym formularzu logowania użytkownik uzyskuje dostęp
+do nowej podstrony - "edytuj oceny". Umożliwa ona zapisywanie wpisanych ocen między
+nowymi sesjami. \par ~\\
+
+\begin{minipage}{\linewidth}
+	\centering
+           \includegraphics[scale=0.5]{registeredUserEdit.jpg}
+	\text{formularz rejestracji użytkownika}
+\end{minipage} \\ ~\\
+
+Wówczas użytkownik odwiedzając stronę w przyszłości 
+przy korzystaniu z formularza służącego uzyskiwaniu predykcji nie musi ponownie
+wpisywać swoich statystyk tylko są one zapamiętywane w systemie i automatycznie wypełnione za użytkownika
+przy wejściu na stronę. \\ \\
+
+Reszta funkcjonalności jest taka, jak dla użytkownika anonimowego.
 
 \section{Funkcjonalności dla Administracji}
 ~\\ \indent
 Domyślnie miała być jeszcze funkcjonalność dla administracji, tzn predykcja popularności przedmiotów, niestety zabrakło nam czasu by ją zaimplementować.
  
 
- \chapter{Architektura} 
+\chapter{Architektura} 
 \section{Schemat Architektury}
 ~\\
 \begin{minipage}{\linewidth} 
@@ -355,8 +382,8 @@ Technologie wykorzystywane w naszym systemie: \par
             \includegraphics[width=7cm, height = 2.5cm]{usosapi.jpg}
 \end{minipage} \\ \\
 
-\item \textbf {USOS Api} - API udostępniane przez system USOS. Nasz system wykorzystuje go w celu zebrania danych zalogowanego użytkownika
-niezbędnych do rekomendacji.
+\item \textbf {USOS Api} - API udostępniane przez system USOS. Nasz system miał wykorzystywać go w celu
+pobierania ocen studentów z USOSa, jednak zabrakło nam czasu na implementację tego elementu systemu.
 
 \end{itemize}
 
@@ -479,18 +506,22 @@ Realną pracę wychodzącą poza studiowanie dokumentacji i metodę prób i bł�
 	    \end{itemize}
 \item \textbf{Albert Rozmus}:
   \begin{itemize}
-        \item Praca przy frontendzie - strona wizualna i funkcjonalna
-        \item Pomoc przy tworzeniu prezentacji
+        \item Praca przy frontendzie - realizacja szaty graficznej i stylu strony,
+		      implementacja formularza służącego wprowadzeniu przedmiotów i ocen z niego 
+			  integracja tego formularza z systeme R.
+	    \item Realizacja formularza dla zalogowanego użytkownika służący zapamiętywaniu wpisanych ocen.
+        \item Pomoc przy tworzeniu prezentacji oraz zaprezentowanie systemu na żywo
         \item Testy funkcjonalne systemu
-        \item Wykorzystanie systemu Redmine do organizacji pracy
+        \item Administracja systemu Redmine który służył organizacji pracy.
     \end{itemize}
 \item \textbf{Krzysztof Rutkowski} :
     \begin{itemize}
-        \item organizacja oraz zarządzanie pracą zespołu.
-        \item znalezienie osoby która podjęła się stworzenia plakatu.
-        \item tworzenie, implementacja i testowanie algorytmow uczenia maszynowego w R.
-        \item integracja skryptow R z frontendem.
-        \item pomoc przy tworzeniu frontendu: formularze do predykcji ocen i przedmiotów z seminarium, stworzenie modulu dla skryptów R, poprawianie jego błędów
+        \item Organizacja oraz zarządzanie pracą zespołu.
+        \item Znalezienie osoby która podjęła się stworzenia plakatu.
+        \item Tworzenie, implementacja i testowanie algorytmow uczenia maszynowego w R.
+        \item Integracja skryptow R z frontendem.
+		\item Napisanie rozdziału licencjatu nt. zastosowanych algorytmów.
+        \item Pomoc przy tworzeniu frontendu: formularze do predykcji ocen i przedmiotów z seminarium, stworzenie modulu dla skryptów R, poprawianie jego błędów
     \end{itemize}
 \item \textbf{Wiktor Zuba} :
   \begin{itemize}
