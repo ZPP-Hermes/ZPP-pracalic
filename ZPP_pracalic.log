@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.29)  29 JUN 2015 13:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.29)  29 JUN 2015 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
@@ -723,12 +723,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \end{abstract}
+l.81 \end{abstract}
                     [1]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \end{abstract}
+l.81 \end{abstract}
                     [2
 
 ] (./ZPP_pracalic.toc
@@ -745,49 +745,49 @@ LaTeX Font Info:    External font `plex10' loaded for size
 ]
 Rozdzia\PlPrIeC {\l } 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
 
 [6]
 Rozdzia\PlPrIeC {\l } 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 <./img/home.jpg, id=173, 913.16156pt x 489.32813pt>
 File: ./img/home.jpg Graphic file (type jpg)
  <use ./img/home.jpg>
-Package pdftex.def Info: ./img/home.jpg used on input line 116.
+Package pdftex.def Info: ./img/home.jpg used on input line 121.
 (pdftex.def)             Requested size: 456.57967pt x 244.66345pt.
 
-Overfull \hbox (15.56194pt too wide) in paragraph at lines 116--118
+Overfull \hbox (15.56194pt too wide) in paragraph at lines 121--123
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
  []
 
@@ -798,15 +798,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--128
 File: ./img/interfejsWstepny.jpg Graphic file (type jpg)
 
 <use ./img/interfejsWstepny.jpg>
-Package pdftex.def Info: ./img/interfejsWstepny.jpg used on input line 134.
+Package pdftex.def Info: ./img/interfejsWstepny.jpg used on input line 139.
 (pdftex.def)             Requested size: 452.06279pt x 263.86014pt.
 
-Overfull \hbox (11.04506pt too wide) in paragraph at lines 134--136
+Overfull \hbox (11.04506pt too wide) in paragraph at lines 139--141
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 
  []
 
@@ -815,21 +815,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--137
 File: ./img/predykcjaPrzedmSelect.jpg Graphic file (type jpg)
 
 <use ./img/predykcjaPrzedmSelect.jpg>
-Package pdftex.def Info: ./img/predykcjaPrzedmSelect.jpg used on input line 146
+Package pdftex.def Info: ./img/predykcjaPrzedmSelect.jpg used on input line 151
 .
 (pdftex.def)             Requested size: 428.72566pt x 263.48372pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
 
  []
 
 [9 <./img/predykcjaPrzedmSelect.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
@@ -837,30 +837,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 File: ./img/predykcjaPrzedm.jpg Graphic file (type jpg)
 
 <use ./img/predykcjaPrzedm.jpg>
-Package pdftex.def Info: ./img/predykcjaPrzedm.jpg used on input line 154.
+Package pdftex.def Info: ./img/predykcjaPrzedm.jpg used on input line 159.
 (pdftex.def)             Requested size: 441.52344pt x 254.45pt.
 
-Overfull \hbox (0.5057pt too wide) in paragraph at lines 154--156
+Overfull \hbox (0.5057pt too wide) in paragraph at lines 159--161
  [][] 
  []
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 152--157
+Overfull \hbox (17.0pt too wide) in paragraph at lines 157--162
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 
  []
 
@@ -868,16 +868,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--159
 File: ./img/predykcjaPrzedmResult.jpg Graphic file (type jpg)
 
 <use ./img/predykcjaPrzedmResult.jpg>
-Package pdftex.def Info: ./img/predykcjaPrzedmResult.jpg used on input line 163
+Package pdftex.def Info: ./img/predykcjaPrzedmResult.jpg used on input line 168
 .
 (pdftex.def)             Requested size: 453.94482pt x 264.23654pt.
 
-Overfull \hbox (12.9271pt too wide) in paragraph at lines 163--165
+Overfull \hbox (12.9271pt too wide) in paragraph at lines 168--170
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--171
 
  []
 
@@ -885,15 +885,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--166
 <./img/reksem.jpg, id=194, 883.80188pt x 508.14844pt>
 File: ./img/reksem.jpg Graphic file (type jpg)
  <use ./img/reksem.jpg>
-Package pdftex.def Info: ./img/reksem.jpg used on input line 174.
+Package pdftex.def Info: ./img/reksem.jpg used on input line 179.
 (pdftex.def)             Requested size: 441.89986pt x 254.0736pt.
 
-Overfull \hbox (0.88213pt too wide) in paragraph at lines 174--176
+Overfull \hbox (0.88213pt too wide) in paragraph at lines 179--181
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--177
+Underfull \hbox (badness 10000) in paragraph at lines 176--182
 
  []
 
@@ -902,20 +902,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--177
 File: ./img/rekSemResult.jpg Graphic file (type jpg)
 
 <use ./img/rekSemResult.jpg>
-Package pdftex.def Info: ./img/rekSemResult.jpg used on input line 184.
+Package pdftex.def Info: ./img/rekSemResult.jpg used on input line 189.
 (pdftex.def)             Requested size: 449.42796pt x 263.10733pt.
 
-Overfull \hbox (8.41023pt too wide) in paragraph at lines 184--186
+Overfull \hbox (8.41023pt too wide) in paragraph at lines 189--191
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
+Underfull \hbox (badness 10000) in paragraph at lines 186--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
+Underfull \hbox (badness 10000) in paragraph at lines 186--192
 
  []
 
@@ -923,15 +923,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--187
 File: ./img/rekSemResultInfo.jpg Graphic file (type jpg)
 
 <use ./img/rekSemResultInfo.jpg>
-Package pdftex.def Info: ./img/rekSemResultInfo.jpg used on input line 191.
+Package pdftex.def Info: ./img/rekSemResultInfo.jpg used on input line 196.
 (pdftex.def)             Requested size: 443.02908pt x 263.86014pt.
 
-Overfull \hbox (2.01135pt too wide) in paragraph at lines 191--193
+Overfull \hbox (2.01135pt too wide) in paragraph at lines 196--198
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--194
+Underfull \hbox (badness 10000) in paragraph at lines 193--199
 
  []
 
@@ -940,20 +940,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--194
 File: ./img/rekPrzedm.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedm.jpg>
-Package pdftex.def Info: ./img/rekPrzedm.jpg used on input line 201.
+Package pdftex.def Info: ./img/rekPrzedm.jpg used on input line 206.
 (pdftex.def)             Requested size: 438.5122pt x 257.83765pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
@@ -962,10 +962,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--204
 File: ./img/rekPrzedmRank.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmRank.jpg>
-Package pdftex.def Info: ./img/rekPrzedmRank.jpg used on input line 211.
+Package pdftex.def Info: ./img/rekPrzedmRank.jpg used on input line 216.
 (pdftex.def)             Requested size: 438.88861pt x 264.23654pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--214
+Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
 
@@ -973,16 +973,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--214
 File: ./img/rekPrzedmRankDetails.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmRankDetails.jpg>
-Package pdftex.def Info: ./img/rekPrzedmRankDetails.jpg used on input line 219.
+Package pdftex.def Info: ./img/rekPrzedmRankDetails.jpg used on input line 224.
 
 (pdftex.def)             Requested size: 444.9111pt x 264.23654pt.
 
-Overfull \hbox (3.89337pt too wide) in paragraph at lines 219--221
+Overfull \hbox (3.89337pt too wide) in paragraph at lines 224--226
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--222
+Underfull \hbox (badness 10000) in paragraph at lines 221--227
 
  []
 
@@ -994,20 +994,20 @@ Underfull \vbox (badness 1092) has occurred while \output is active []
 File: ./img/rekPrzedmSem.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmSem.jpg>
-Package pdftex.def Info: ./img/rekPrzedmSem.jpg used on input line 229.
+Package pdftex.def Info: ./img/rekPrzedmSem.jpg used on input line 234.
 (pdftex.def)             Requested size: 461.47293pt x 258.96686pt.
 
-Overfull \hbox (20.4552pt too wide) in paragraph at lines 229--231
+Overfull \hbox (20.4552pt too wide) in paragraph at lines 234--236
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--232
+Underfull \hbox (badness 10000) in paragraph at lines 231--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--232
+Underfull \hbox (badness 10000) in paragraph at lines 231--237
 
  []
 
@@ -1016,20 +1016,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--232
 File: ./img/rekPrzedmSemSelect.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmSemSelect.jpg>
-Package pdftex.def Info: ./img/rekPrzedmSemSelect.jpg used on input line 237.
+Package pdftex.def Info: ./img/rekPrzedmSemSelect.jpg used on input line 242.
 (pdftex.def)             Requested size: 452.81561pt x 256.33202pt.
 
-Overfull \hbox (11.79788pt too wide) in paragraph at lines 237--239
+Overfull \hbox (11.79788pt too wide) in paragraph at lines 242--244
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
+Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
+Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
  []
 
@@ -1037,15 +1037,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--240
 File: ./img/rekPrzedmSemResult.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmSemResult.jpg>
-Package pdftex.def Info: ./img/rekPrzedmSemResult.jpg used on input line 245.
+Package pdftex.def Info: ./img/rekPrzedmSemResult.jpg used on input line 250.
 (pdftex.def)             Requested size: 438.88861pt x 245.79268pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--253
 
  []
 
@@ -1058,39 +1058,39 @@ Rozdzia\PlPrIeC {\l } 3.
 File: ./img/architekturaFin.jpg Graphic file (type jpg)
 
 <use ./img/architekturaFin.jpg>
-Package pdftex.def Info: ./img/architekturaFin.jpg used on input line 263.
+Package pdftex.def Info: ./img/architekturaFin.jpg used on input line 268.
 (pdftex.def)             Requested size: 353.82101pt x 252.19156pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--267
+Underfull \hbox (badness 10000) in paragraph at lines 265--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--267
+Underfull \hbox (badness 10000) in paragraph at lines 265--272
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 274.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 274.
  [19 <./img/architekturaFin.jpg>] <./img/dataFlow.jpg, id=243, 495.35063pt x 36
 2.85562pt>
 File: ./img/dataFlow.jpg Graphic file (type jpg)
 
 <use ./img/dataFlow.jpg>
-Package pdftex.def Info: ./img/dataFlow.jpg used on input line 290.
+Package pdftex.def Info: ./img/dataFlow.jpg used on input line 295.
 (pdftex.def)             Requested size: 346.74307pt x 253.99721pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--294
+Underfull \hbox (badness 10000) in paragraph at lines 292--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--294
+Underfull \hbox (badness 10000) in paragraph at lines 292--299
 
  []
 
@@ -1101,55 +1101,55 @@ Rozdzia\PlPrIeC {\l } 4.
 <./img/azure.jpg, id=263, 424.58624pt x 119.44624pt>
 File: ./img/azure.jpg Graphic file (type jpg)
  <use ./img/azure.jpg>
-Package pdftex.def Info: ./img/azure.jpg used on input line 320.
+Package pdftex.def Info: ./img/azure.jpg used on input line 325.
 (pdftex.def)             Requested size: 284.54257pt x 85.35783pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 318--323
+Overfull \hbox (17.0pt too wide) in paragraph at lines 323--328
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--323
+Underfull \hbox (badness 10000) in paragraph at lines 323--328
 
  []
 
 <./img/mysql.png, id=264, 314.17375pt x 161.60374pt>
 File: ./img/mysql.png Graphic file (type png)
  <use ./img/mysql.png>
-Package pdftex.def Info: ./img/mysql.png used on input line 326.
+Package pdftex.def Info: ./img/mysql.png used on input line 331.
 (pdftex.def)             Requested size: 227.61911pt x 85.3586pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--328
+Underfull \hbox (badness 10000) in paragraph at lines 328--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--328
+Underfull \hbox (badness 10000) in paragraph at lines 328--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
 <./img/R.png, id=265, 349.305pt x 264.99pt>
 File: ./img/R.png Graphic file (type png)
  <use ./img/R.png>
-Package pdftex.def Info: ./img/R.png used on input line 333.
+Package pdftex.def Info: ./img/R.png used on input line 338.
 (pdftex.def)             Requested size: 113.8106pt x 113.81004pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 331--335
+Overfull \hbox (17.0pt too wide) in paragraph at lines 336--340
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--335
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--335
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
 
  []
 
@@ -1158,33 +1158,33 @@ File: ./img/python-logo-master-v3-TM.png Graphic file (type png)
 
 <use ./img/python-logo-master-v3-TM.png>
 Package pdftex.def Info: ./img/python-logo-master-v3-TM.png used on input line 
-343.
+348.
 (pdftex.def)             Requested size: 170.7195pt x 85.35934pt.
 
 <./img/django-logo-negative.png, id=268, 1204.5pt x 548.0475pt>
 File: ./img/django-logo-negative.png Graphic file (type png)
 
 <use ./img/django-logo-negative.png>
-Package pdftex.def Info: ./img/django-logo-negative.png used on input line 347.
+Package pdftex.def Info: ./img/django-logo-negative.png used on input line 352.
 
 (pdftex.def)             Requested size: 170.70569pt x 85.35625pt.
  [23 <./img/azure.jpg> <./img/mysql.png> <./img/R.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 <./img/usosapi.jpg, id=276, 218.31563pt x 73.02281pt>
 File: ./img/usosapi.jpg Graphic file (type jpg)
  <use ./img/usosapi.jpg>
-Package pdftex.def Info: ./img/usosapi.jpg used on input line 355.
+Package pdftex.def Info: ./img/usosapi.jpg used on input line 360.
 (pdftex.def)             Requested size: 199.17053pt x 71.13843pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--357
+Underfull \hbox (badness 10000) in paragraph at lines 358--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--357
+Underfull \hbox (badness 10000) in paragraph at lines 358--362
 
  []
 
@@ -1209,54 +1209,54 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 389.
+(hyperref)                than one, level fixed on input line 394.
 
 (./nearestSub.R) [26] (./rf.R) [27] [28
 
 ]
 Rozdzia\PlPrIeC {\l } 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
 [30]
-Overfull \hbox (3.30824pt too wide) in paragraph at lines 478--479
+Overfull \hbox (3.30824pt too wide) in paragraph at lines 483--484
 []\OT4/cmr/m/n/10.95 We wst¦p-nej wer-sji pro-jek-tu ko-rzy-sta-j¡-cej z SSAS -
  ad-mi-ni-stra-cja ser-we-rem WWW,
  []
@@ -1268,15 +1268,15 @@ Rozdzia\PlPrIeC {\l } 7.
 ] [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 546.
  [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
  (./ZPP_pracalic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 546.
 Package rerunfilecheck Info: File `ZPP_pracalic.out' has not changed.
 (rerunfilecheck)             Checksum: 9A2D4F45EB3669CB28E237AFDB62D391;1903.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 546.
  ) 
 Here is how much of TeX's memory you used:
  10727 strings out of 494993
@@ -1304,7 +1304,7 @@ xmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/pl/plr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/pls
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy9.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/pl/plti10.pfb>
-Output written on ZPP_pracalic.pdf (37 pages, 2462790 bytes).
+Output written on ZPP_pracalic.pdf (37 pages, 2463185 bytes).
 PDF statistics:
  470 PDF objects out of 1000 (max. 8388607)
  385 compressed objects within 4 object streams
