@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.29)  29 JUN 2015 15:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.29)  29 JUN 2015 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -761,7 +761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<./img/home.jpg, id=173, 913.16156pt x 489.32813pt>
+<./img/home.jpg, id=178, 913.16156pt x 489.32813pt>
 File: ./img/home.jpg Graphic file (type jpg)
  <use ./img/home.jpg>
 Package pdftex.def Info: ./img/home.jpg used on input line 121.
@@ -794,7 +794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--133
 [7
 
  <./img/home.jpg>]
-<./img/interfejsWstepny.jpg, id=178, 904.1278pt x 527.72156pt>
+<./img/interfejsWstepny.jpg, id=183, 904.1278pt x 527.72156pt>
 File: ./img/interfejsWstepny.jpg Graphic file (type jpg)
 
 <use ./img/interfejsWstepny.jpg>
@@ -811,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--142
  []
 
 [8 <./img/interfejsWstepny.jpg>]
-<./img/predykcjaPrzedmSelect.jpg, id=183, 857.45343pt x 526.96875pt>
+<./img/predykcjaPrzedmSelect.jpg, id=188, 857.45343pt x 526.96875pt>
 File: ./img/predykcjaPrzedmSelect.jpg Graphic file (type jpg)
 
 <use ./img/predykcjaPrzedmSelect.jpg>
@@ -833,7 +833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
-<./img/predykcjaPrzedm.jpg, id=188, 883.04906pt x 508.90125pt>
+<./img/predykcjaPrzedm.jpg, id=193, 883.04906pt x 508.90125pt>
 File: ./img/predykcjaPrzedm.jpg Graphic file (type jpg)
 
 <use ./img/predykcjaPrzedm.jpg>
@@ -864,7 +864,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--164
 
  []
 
-<./img/predykcjaPrzedmResult.jpg, id=189, 907.89188pt x 528.47438pt>
+<./img/predykcjaPrzedmResult.jpg, id=194, 907.89188pt x 528.47438pt>
 File: ./img/predykcjaPrzedmResult.jpg Graphic file (type jpg)
 
 <use ./img/predykcjaPrzedmResult.jpg>
@@ -882,7 +882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--171
  []
 
 [10 <./img/predykcjaPrzedm.jpg> <./img/predykcjaPrzedmResult.jpg>]
-<./img/reksem.jpg, id=194, 883.80188pt x 508.14844pt>
+<./img/reksem.jpg, id=199, 883.80188pt x 508.14844pt>
 File: ./img/reksem.jpg Graphic file (type jpg)
  <use ./img/reksem.jpg>
 Package pdftex.def Info: ./img/reksem.jpg used on input line 179.
@@ -898,7 +898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--182
  []
 
 [11 <./img/reksem.jpg>]
-<./img/rekSemResult.jpg, id=200, 898.85812pt x 526.21594pt>
+<./img/rekSemResult.jpg, id=205, 898.85812pt x 526.21594pt>
 File: ./img/rekSemResult.jpg Graphic file (type jpg)
 
 <use ./img/rekSemResult.jpg>
@@ -919,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--192
 
  []
 
-<./img/rekSemResultInfo.jpg, id=201, 886.06032pt x 527.72156pt>
+<./img/rekSemResultInfo.jpg, id=206, 886.06032pt x 527.72156pt>
 File: ./img/rekSemResultInfo.jpg Graphic file (type jpg)
 
 <use ./img/rekSemResultInfo.jpg>
@@ -936,7 +936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--199
  []
 
 [12 <./img/rekSemResult.jpg> <./img/rekSemResultInfo.jpg>]
-<./img/rekPrzedm.jpg, id=206, 877.02657pt x 515.67656pt>
+<./img/rekPrzedm.jpg, id=211, 877.02657pt x 515.67656pt>
 File: ./img/rekPrzedm.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedm.jpg>
@@ -958,7 +958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--209
  []
 
 [13 <./img/rekPrzedm.jpg>]
-<./img/rekPrzedmRank.jpg, id=211, 877.77937pt x 528.47438pt>
+<./img/rekPrzedmRank.jpg, id=216, 877.77937pt x 528.47438pt>
 File: ./img/rekPrzedmRank.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmRank.jpg>
@@ -969,7 +969,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
 
-<./img/rekPrzedmRankDetails.jpg, id=212, 889.82437pt x 528.47438pt>
+<./img/rekPrzedmRankDetails.jpg, id=217, 889.82437pt x 528.47438pt>
 File: ./img/rekPrzedmRankDetails.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmRankDetails.jpg>
@@ -990,7 +990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--227
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [14 <./img/rekPrzedmRank.jpg> <./img/rekPrzedmRankDetails.jpg>]
-<./img/rekPrzedmSem.jpg, id=217, 922.94812pt x 517.935pt>
+<./img/rekPrzedmSem.jpg, id=222, 922.94812pt x 517.935pt>
 File: ./img/rekPrzedmSem.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmSem.jpg>
@@ -1012,7 +1012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--237
  []
 
 [15 <./img/rekPrzedmSem.jpg>]
-<./img/rekPrzedmSemSelect.jpg, id=222, 905.63344pt x 512.66531pt>
+<./img/rekPrzedmSemSelect.jpg, id=227, 905.63344pt x 512.66531pt>
 File: ./img/rekPrzedmSemSelect.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmSemSelect.jpg>
@@ -1033,7 +1033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
  []
 
-<./img/rekPrzedmSemResult.jpg, id=223, 877.77937pt x 491.58656pt>
+<./img/rekPrzedmSemResult.jpg, id=228, 877.77937pt x 491.58656pt>
 File: ./img/rekPrzedmSemResult.jpg Graphic file (type jpg)
 
 <use ./img/rekPrzedmSemResult.jpg>
@@ -1050,7 +1050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--253
  []
 
 [16 <./img/rekPrzedmSemSelect.jpg> <./img/rekPrzedmSemResult.jpg>]
-<./img/registerForm.jpg, id=228, 907.13907pt x 435.87843pt>
+<./img/registerForm.jpg, id=233, 907.13907pt x 435.87843pt>
 File: ./img/registerForm.jpg Graphic file (type jpg)
 
 <use ./img/registerForm.jpg>
@@ -1076,7 +1076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-<./img/registeredUserEdit.jpg, id=234, 962.84718pt x 617.30624pt>
+<./img/registeredUserEdit.jpg, id=239, 962.84718pt x 617.30624pt>
 File: ./img/registeredUserEdit.jpg Graphic file (type jpg)
 
 <use ./img/registeredUserEdit.jpg>
@@ -1114,7 +1114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--282
 
 [18 <./img/registeredUserEdit.jpg>]
 Rozdzia\PlPrIeC {\l } 3.
-<./img/architekturaFin.jpg, id=239, 707.64375pt x 504.38437pt>
+<./img/architekturaFin.jpg, id=244, 707.64375pt x 504.38437pt>
 File: ./img/architekturaFin.jpg Graphic file (type jpg)
 
 <use ./img/architekturaFin.jpg>
@@ -1139,7 +1139,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 301.
  [19
 
- <./img/architekturaFin.jpg>] <./img/dataFlow.jpg, id=245, 495.35063pt x 362.85
+ <./img/architekturaFin.jpg>] <./img/dataFlow.jpg, id=250, 495.35063pt x 362.85
 562pt>
 File: ./img/dataFlow.jpg Graphic file (type jpg)
 
@@ -1160,7 +1160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--326
 
 ]
 Rozdzia\PlPrIeC {\l } 4.
-<./img/azure.jpg, id=265, 424.58624pt x 119.44624pt>
+<./img/azure.jpg, id=270, 424.58624pt x 119.44624pt>
 File: ./img/azure.jpg Graphic file (type jpg)
  <use ./img/azure.jpg>
 Package pdftex.def Info: ./img/azure.jpg used on input line 352.
@@ -1175,7 +1175,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--355
 
  []
 
-<./img/mysql.png, id=266, 314.17375pt x 161.60374pt>
+<./img/mysql.png, id=271, 314.17375pt x 161.60374pt>
 File: ./img/mysql.png Graphic file (type png)
  <use ./img/mysql.png>
 Package pdftex.def Info: ./img/mysql.png used on input line 358.
@@ -1195,7 +1195,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
-<./img/R.png, id=267, 349.305pt x 264.99pt>
+<./img/R.png, id=272, 349.305pt x 264.99pt>
 File: ./img/R.png Graphic file (type png)
  <use ./img/R.png>
 Package pdftex.def Info: ./img/R.png used on input line 365.
@@ -1215,7 +1215,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--367
 
  []
 
-<./img/python-logo-master-v3-TM.png, id=269, 611.75027pt x 206.63113pt>
+<./img/python-logo-master-v3-TM.png, id=274, 611.75027pt x 206.63113pt>
 File: ./img/python-logo-master-v3-TM.png Graphic file (type png)
 
 <use ./img/python-logo-master-v3-TM.png>
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: ./img/python-logo-master-v3-TM.png used on input line
 375.
 (pdftex.def)             Requested size: 170.7195pt x 85.35934pt.
 
-<./img/django-logo-negative.png, id=270, 1204.5pt x 548.0475pt>
+<./img/django-logo-negative.png, id=275, 1204.5pt x 548.0475pt>
 File: ./img/django-logo-negative.png Graphic file (type png)
 
 <use ./img/django-logo-negative.png>
@@ -1235,7 +1235,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-<./img/usosapi.jpg, id=278, 218.31563pt x 73.02281pt>
+<./img/usosapi.jpg, id=283, 218.31563pt x 73.02281pt>
 File: ./img/usosapi.jpg Graphic file (type jpg)
  <use ./img/usosapi.jpg>
 Package pdftex.def Info: ./img/usosapi.jpg used on input line 387.
@@ -1330,21 +1330,25 @@ Rozdzia\PlPrIeC {\l } 7.
 ] [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 577.
- [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
+Rozdzia\PlPrIeC {\l } 8.
+[35] [36
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
  (./ZPP_pracalic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
 Package rerunfilecheck Info: File `ZPP_pracalic.out' has not changed.
-(rerunfilecheck)             Checksum: 9A2D4F45EB3669CB28E237AFDB62D391;1903.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 577.
+(rerunfilecheck)             Checksum: AFB5C1812AE1FC8E4E7087DD3A014707;1964.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 590.
  ) 
 Here is how much of TeX's memory you used:
- 10737 strings out of 494993
- 151780 string characters out of 6180620
+ 10742 strings out of 494993
+ 151832 string characters out of 6180620
  324553 words of memory out of 5000000
- 13644 multiletter control sequences out of 15000+600000
+ 13646 multiletter control sequences out of 15000+600000
  19958 words of font info for 60 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  41i,10n,41p,1223b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1366,10 +1370,10 @@ xmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/pl/plr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/pls
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy9.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/pl/plti10.pfb>
-Output written on ZPP_pracalic.pdf (37 pages, 2647857 bytes).
+Output written on ZPP_pracalic.pdf (39 pages, 2649399 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 112 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
 

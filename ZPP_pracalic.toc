@@ -22,5 +22,6 @@
 \contentsline {section}{\numberline {6.1}Praca nad systemem}{29}{section.6.1}
 \contentsline {section}{\numberline {6.2}Organizacja Pracy}{30}{section.6.2}
 \contentsline {section}{\numberline {6.3}Podzia\IeC {\l } Obowi\IeC {\k a}zk\IeC {\'o}w}{31}{section.6.3}
-\contentsline {chapter}{\numberline {7}Podsumowanie}{33}{chapter.7}
-\contentsline {chapter}{Bibliografia}{35}{chapter*.3}
+\contentsline {chapter}{\numberline {7}Spis zawarto\IeC {\'s}ci p\IeC {\l }ytki}{33}{chapter.7}
+\contentsline {chapter}{\numberline {8}Podsumowanie}{35}{chapter.8}
+\contentsline {chapter}{Bibliografia}{37}{chapter*.3}
