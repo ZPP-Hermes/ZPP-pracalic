@@ -16,6 +16,8 @@
 \hypersetup{%
     pdfborder = {0 0 0}
 }
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 \lstset{ %
   language=R,                     % the language of the code
   basicstyle=\footnotesize,       % the size of the fonts that are used for the code
@@ -118,6 +120,8 @@ Przy wejciu na stronę systemu użytkownik otrzymuje stronę startową która je
  Poniższe podrozdziały opisują funkcjonalności zależne od wybranej opcji.
 
 \section{Funkcjonalności dla Studentów}
+
+\subsection{Użytkownik anonimowy}
 ~\\ \indent
 W tym podrozdziale znajduje się opis funkcjonalności dostępnych dla użytkownika anonimowego - w domyśle studenta.
 ~\\
@@ -133,7 +137,7 @@ W przypadku wyboru zakładki "wprowadź oceny" student uzyskuje możliwość wpr
 
 \newpage
 
-\subsection{Predykcja ocen}
+\subsubsection{Predykcja ocen}
 ~\\ \indent
 Użytkownik wybiera predykcję oceny z przedmiotu za pomocą opcji "wybierz przedmiot do predykcji oceny" \par
 ~\\
@@ -160,7 +164,7 @@ Po jego wybraniu i użyciu opcji "wyślij"  użytkownik otrzymuje wynik w postac
 	\text{Przykładowy rezultat zapytania o predykcję oceny}
 \end{minipage} \\ 
 
-\subsection{Remomendacja seminariów}
+\subsubsection{Remomendacja seminariów}
 ~\\ \indent
 
 Użytkownik chcąc otrzymać rekomendowane seminaria musi wybrać opcję otrzymania rekomendacji seminarium wg jednego z dwóch algorytmów: strategii lasów losowych bądź najbliższych sąsiadów. \par 
@@ -189,7 +193,7 @@ Dla każdego seminarium użytkownik może podejrzeć informacje dotyczące zwró
 \end{minipage} \\ 
 
 
-\subsection{Rekomendacja przedmiotów} ~\\ \indent
+\subsubsection{Rekomendacja przedmiotów} ~\\ \indent
 Po wybraniu opcji rekomendacji przedmiotów student otrzymuje wybór kilku opcji. Może wybrać opcje "znajdź najłatwiejsze", szczęśliwy traf - "sposób losowy", "ranking wg algorytmu najbliższych sąsiadów" oraz "znajdź wg algorytmu regułowego". \par
  ~\\
 \begin{minipage}{\linewidth}
@@ -216,7 +220,7 @@ Każdy przedmiot po rozwinięciu opisu zawiera proste statystyki, tak jak dla re
 	\text{Opis przedmiotu po rozwinięciu (tu Sztuczna Inteligencja)}
 \end{minipage} \\ 
 
-\subsection{Rekomendacja przedmiotów do seminarium}
+\subsubsection{Rekomendacja przedmiotów do seminarium}
 
 Ostatnią funkcjonalnością dla studenta jest możliwość otrzymania rekomendacji do semianarium. Student, chcąc otrzymać taką predykcje, musi zaznaczyć opcję "Wybierz seminarium do rekomendacji przedmiotów" \par
 ~\\
@@ -243,6 +247,8 @@ Po użyciu przycisku "wyślij" student otrzymuje ranking 5 najbardziej zgodnych 
 \end{minipage} \\ ~\\
 \newpage
 Analogicznie do poprzednich funkcjonalności możliwe jest podejrzenie informacji o przedmiotach.
+
+\subsection{Użytkownik zalogowany}
 
 \section{Funkcjonalności dla Administracji}
 ~\\ \indent

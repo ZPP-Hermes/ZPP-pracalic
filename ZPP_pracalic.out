@@ -3,22 +3,24 @@
 \BOOKMARK [1][-]{section.1.2}{od Autor\363w}{chapter.1}% 3
 \BOOKMARK [0][-]{chapter.2}{Funkcjonalnosci}{}% 4
 \BOOKMARK [1][-]{section.2.1}{Funkcjonalnosci dla Student\363w}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.1.1}{Predykcja ocen}{section.2.1}% 6
-\BOOKMARK [2][-]{subsection.2.1.2}{Remomendacja seminari\363w}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.3}{Rekomendacja przedmiot\363w}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.4}{Rekomendacja przedmiot\363w do seminarium}{section.2.1}% 9
-\BOOKMARK [1][-]{section.2.2}{Funkcjonalnosci dla Administracji}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Architektura}{}% 11
-\BOOKMARK [1][-]{section.3.1}{Schemat Architektury}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Schemat wsp\363\233dzia\233ania komponent\363w architektury i przep\233ywu danych}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{Technologia}{}% 14
-\BOOKMARK [0][-]{chapter.5}{Zastosowane Algorytmy}{}% 15
-\BOOKMARK [1][-]{subsection.5.0.1}{Algorytmy uzyte przy proponowaniu przedmiot\363w}{chapter.5}% 16
-\BOOKMARK [2][-]{subsection.5.0.2}{Algorytmy uzywane przy predykcji seminari\363w}{subsection.5.0.1}% 17
-\BOOKMARK [2][-]{subsection.5.0.3}{Algorytmy uzywane przy predykcji ocen}{subsection.5.0.1}% 18
-\BOOKMARK [0][-]{chapter.6}{Organizacja pracy oraz podzia\233 obowiazk\363w}{}% 19
-\BOOKMARK [1][-]{section.6.1}{Praca nad systemem}{chapter.6}% 20
-\BOOKMARK [1][-]{section.6.2}{Organizacja Pracy}{chapter.6}% 21
-\BOOKMARK [1][-]{section.6.3}{Podzia\233 Obowiazk\363w}{chapter.6}% 22
-\BOOKMARK [0][-]{chapter.7}{Podsumowanie}{}% 23
-\BOOKMARK [0][-]{chapter*.3}{Bibliografia}{}% 24
+\BOOKMARK [2][-]{subsection.2.1.1}{Uzytkownik anonimowy}{section.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1.1}{Predykcja ocen}{subsection.2.1.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.1.2}{Remomendacja seminari\363w}{subsection.2.1.1}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.1.3}{Rekomendacja przedmiot\363w}{subsection.2.1.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1.4}{Rekomendacja przedmiot\363w do seminarium}{subsection.2.1.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Uzytkownik zalogowany}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Funkcjonalnosci dla Administracji}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Architektura}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Schemat Architektury}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Schemat wsp\363\233dzia\233ania komponent\363w architektury i przep\233ywu danych}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Technologia}{}% 16
+\BOOKMARK [0][-]{chapter.5}{Zastosowane Algorytmy}{}% 17
+\BOOKMARK [1][-]{subsection.5.0.1}{Algorytmy uzyte przy proponowaniu przedmiot\363w}{chapter.5}% 18
+\BOOKMARK [2][-]{subsection.5.0.2}{Algorytmy uzywane przy predykcji seminari\363w}{subsection.5.0.1}% 19
+\BOOKMARK [2][-]{subsection.5.0.3}{Algorytmy uzywane przy predykcji ocen}{subsection.5.0.1}% 20
+\BOOKMARK [0][-]{chapter.6}{Organizacja pracy oraz podzia\233 obowiazk\363w}{}% 21
+\BOOKMARK [1][-]{section.6.1}{Praca nad systemem}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.2}{Organizacja Pracy}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.3}{Podzia\233 Obowiazk\363w}{chapter.6}% 24
+\BOOKMARK [0][-]{chapter.7}{Podsumowanie}{}% 25
+\BOOKMARK [0][-]{chapter*.3}{Bibliografia}{}% 26
